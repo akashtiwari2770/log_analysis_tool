@@ -1,0 +1,1900 @@
+﻿Timestamp,PID,Component,Level,Code,Message,Category
+25-02-2023 12:00,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:00,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:00,27730,fes,INFO,9,Cleanup: closed session=SID1632,Normal
+25-02-2023 12:01,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 12:01,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 12:01,27730,fes,INFO,1,Cleanup: closed session=SID1111,Normal
+25-02-2023 12:02,27730,fes,INFO,1,Cleanup: closed session=SID1482,Normal
+25-02-2023 12:02,27730,fes,ERROR,40,"ProxyConnectionFailed: user=charlie,session=SID1502,ip=10.0.0.45,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 12:03,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 12:03,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 12:03,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 12:04,27730,fes,ERROR,54,"AuthenticationFailed: user=frank,session=SID1135,ip=10.0.0.31,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 12:04,27730,fes,INFO,9,Heartbeat: keepalive session=SID1654,Normal
+25-02-2023 12:05,27730,fes,INFO,8,Heartbeat: keepalive session=SID1623,Normal
+25-02-2023 12:05,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 12:05,27730,fes,INFO,1,Cleanup: closed session=SID1325,Normal
+25-02-2023 12:05,27730,fes,ERROR,57,"ConnectionFailed: user=alice,session=SID1127,ip=10.0.0.23,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 12:06,27730,fes,INFO,10,Cleanup: closed session=SID1844,Normal
+25-02-2023 12:06,27730,fes,INFO,1,SessionRefresh: session=SID1579 ok,Normal
+25-02-2023 12:06,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:07,27730,fes,INFO,8,SessionRefresh: session=SID1706 ok,Normal
+25-02-2023 12:07,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 12:07,27730,fes,ERROR,50,"ProxyConnectionFailed: user=dan,session=SID1207,ip=10.0.0.26,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 12:08,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:08,27730,fes,INFO,4,SessionRefresh: session=SID1945 ok,Normal
+25-02-2023 12:08,27730,fes,ERROR,89,"ProxyConnectionFailed: user=charlie,session=SID1437,ip=10.0.0.33,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 12:09,27730,fes,INFO,6,Heartbeat: keepalive session=SID1440,Normal
+25-02-2023 12:09,27730,fes,ERROR,37,"CertificateError: user=erin,ip=10.0.0.14,err=CertificateErrorIssue",Certificate Error
+25-02-2023 12:09,27730,fes,WARN,32,"HighLatency: session=SID1954,latency=3458ms",Performance Warning
+25-02-2023 12:09,27730,fes,ERROR,30,"ConnectionFailed: user=charlie,session=SID1000,ip=10.0.0.30,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 12:10,27730,fes,INFO,3,Cleanup: closed session=SID1056,Normal
+25-02-2023 12:11,27730,fes,ERROR,73,"TwoFactorFailed: user=frank,session=SID1235,ip=10.0.0.15,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 12:11,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 12:11,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 12:11,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 12:12,27730,fes,INFO,3,Heartbeat: keepalive session=SID1020,Normal
+25-02-2023 12:12,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 12:12,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 12:13,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 12:13,27730,fes,INFO,2,SessionRefresh: session=SID1707 ok,Normal
+25-02-2023 12:13,27730,fes,INFO,8,SessionRefresh: session=SID1551 ok,Normal
+25-02-2023 12:14,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 12:14,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 12:14,27730,fes,INFO,8,Heartbeat: keepalive session=SID1090,Normal
+25-02-2023 12:15,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 12:15,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:15,27730,fes,INFO,8,SessionRefresh: session=SID1452 ok,Normal
+25-02-2023 12:16,27730,fes,ERROR,29,"ConnectionFailed: user=charlie,session=SID1919,ip=10.0.0.10,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 12:16,27730,fes,ERROR,51,"UserAccountExpired: user=charlie,session=SID1288,ip=10.0.0.35,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 12:16,27730,fes,ERROR,49,"ProxyConnectionFailed: user=bob,session=SID1690,ip=10.0.0.20,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 12:16,27730,fes,INFO,8,Cleanup: closed session=SID1562,Normal
+25-02-2023 12:17,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 12:18,27730,fes,INFO,3,SessionRefresh: session=SID1801 ok,Normal
+25-02-2023 12:17,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 12:18,27730,fes,INFO,6,Cleanup: closed session=SID1484,Normal
+25-02-2023 12:19,27730,fes,ERROR,76,"LicenseExpired: user=charlie,session=SID1058,ip=10.0.0.31,err=LicenseExpiredIssue",License Error
+25-02-2023 12:19,27730,fes,INFO,3,Heartbeat: keepalive session=SID1259,Normal
+25-02-2023 12:19,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 12:19,27730,fes,INFO,1,Cleanup: closed session=SID1768,Normal
+25-02-2023 12:20,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 12:20,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 12:20,27730,fes,INFO,10,SessionRefresh: session=SID1526 ok,Normal
+25-02-2023 12:20,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 12:21,27730,fes,INFO,8,Cleanup: closed session=SID1358,Normal
+25-02-2023 12:22,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:22,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 12:22,27730,fes,INFO,8,Cleanup: closed session=SID1307,Normal
+25-02-2023 12:22,27730,fes,INFO,9,Heartbeat: keepalive session=SID1125,Normal
+25-02-2023 12:22,27730,fes,ERROR,36,"UserAccountExpired: user=alice,session=SID1088,ip=10.0.0.42,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 12:23,27730,fes,ERROR,42,"TwoFactorFailed: user=charlie,session=SID1455,ip=10.0.0.40,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 12:24,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 12:24,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:24,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 12:24,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 12:24,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 12:25,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 12:25,27730,fes,INFO,9,Cleanup: closed session=SID1703,Normal
+25-02-2023 12:25,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 12:26,27730,fes,INFO,4,SessionRefresh: session=SID1799 ok,Normal
+25-02-2023 12:26,27730,fes,ERROR,41,"TokenExpired: user=frank,session=SID1924,ip=10.0.0.48,err=TokenExpiredIssue",Token Expired
+25-02-2023 12:26,27730,fes,INFO,4,Heartbeat: keepalive session=SID1992,Normal
+25-02-2023 12:27,27730,fes,WARN,20,"HighLatency: session=SID1495,latency=3185ms",Performance Warning
+25-02-2023 12:27,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:28,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 12:28,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 12:29,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 12:28,27730,fes,INFO,2,Cleanup: closed session=SID1725,Normal
+25-02-2023 12:29,27730,fes,ERROR,49,"UserAccountExpired: user=charlie,session=SID1823,ip=10.0.0.15,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 12:29,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 12:30,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 12:30,27730,fes,INFO,9,Heartbeat: keepalive session=SID1606,Normal
+25-02-2023 12:30,27730,fes,INFO,7,Cleanup: closed session=SID1360,Normal
+25-02-2023 12:31,27730,fes,ERROR,69,"CertificateError: user=charlie,ip=10.0.0.24,err=CertificateErrorIssue",Certificate Error
+25-02-2023 12:31,27730,fes,ERROR,99,"UserAccountExpired: user=erin,session=SID1151,ip=10.0.0.29,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 12:31,27730,fes,INFO,7,Heartbeat: keepalive session=SID1323,Normal
+25-02-2023 12:31,27730,fes,INFO,4,Heartbeat: keepalive session=SID1332,Normal
+25-02-2023 12:32,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:32,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 12:33,27730,fes,INFO,3,Cleanup: closed session=SID1286,Normal
+25-02-2023 12:33,27730,fes,ERROR,77,"TokenExpired: user=charlie,session=SID1536,ip=10.0.0.44,err=TokenExpiredIssue",Token Expired
+25-02-2023 12:34,27730,fes,INFO,2,Cleanup: closed session=SID1949,Normal
+25-02-2023 12:34,27730,fes,ERROR,78,"TokenExpired: user=frank,session=SID1937,ip=10.0.0.32,err=TokenExpiredIssue",Token Expired
+25-02-2023 12:34,27730,fes,INFO,9,SessionRefresh: session=SID1722 ok,Normal
+25-02-2023 12:34,27730,fes,INFO,5,SessionRefresh: session=SID1236 ok,Normal
+25-02-2023 12:35,27730,fes,INFO,2,Heartbeat: keepalive session=SID1276,Normal
+25-02-2023 12:35,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 12:35,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 12:35,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:36,27730,fes,INFO,5,Cleanup: closed session=SID1354,Normal
+25-02-2023 12:36,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 12:37,27730,fes,INFO,5,Cleanup: closed session=SID1695,Normal
+25-02-2023 12:37,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 12:37,27730,fes,INFO,3,Cleanup: closed session=SID1443,Normal
+25-02-2023 12:38,27730,fes,INFO,1,Cleanup: closed session=SID1843,Normal
+25-02-2023 12:38,27730,fes,INFO,7,SessionRefresh: session=SID1816 ok,Normal
+25-02-2023 12:38,27730,fes,INFO,7,Cleanup: closed session=SID1021,Normal
+25-02-2023 12:38,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:39,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 12:40,27730,fes,INFO,6,SessionRefresh: session=SID1262 ok,Normal
+25-02-2023 12:40,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:40,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 12:40,27730,fes,WARN,44,"HighLatency: session=SID1406,latency=3711ms",Performance Warning
+25-02-2023 12:41,27730,fes,INFO,2,Heartbeat: keepalive session=SID1421,Normal
+25-02-2023 12:41,27730,fes,ERROR,41,"ProxyConnectionFailed: user=alice,session=SID1843,ip=10.0.0.5,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 12:41,27730,fes,ERROR,78,"CertificateError: user=charlie,ip=10.0.0.11,err=CertificateErrorIssue",Certificate Error
+25-02-2023 12:41,27730,fes,INFO,6,Cleanup: closed session=SID1799,Normal
+25-02-2023 12:42,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 12:42,27730,fes,INFO,6,Heartbeat: keepalive session=SID1857,Normal
+25-02-2023 12:42,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:43,27730,fes,ERROR,87,"TokenExpired: user=alice,session=SID1360,ip=10.0.0.7,err=TokenExpiredIssue",Token Expired
+25-02-2023 12:43,27730,fes,INFO,3,SessionRefresh: session=SID1886 ok,Normal
+25-02-2023 12:44,27730,fes,ERROR,70,"ProxyConnectionFailed: user=erin,session=SID1316,ip=10.0.0.30,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 12:44,27730,fes,INFO,2,SessionRefresh: session=SID1951 ok,Normal
+25-02-2023 12:45,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 12:45,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 12:45,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 12:45,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:45,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 12:46,27730,fes,ERROR,29,"LicenseExpired: user=dan,session=SID1888,ip=10.0.0.15,err=LicenseExpiredIssue",License Error
+25-02-2023 12:47,27730,fes,INFO,6,Cleanup: closed session=SID1494,Normal
+25-02-2023 12:46,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 12:47,27730,fes,ERROR,58,"ProxyConnectionFailed: user=bob,session=SID1265,ip=10.0.0.45,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 12:48,27730,fes,INFO,5,Cleanup: closed session=SID1830,Normal
+25-02-2023 12:48,27730,fes,INFO,4,Heartbeat: keepalive session=SID1631,Normal
+25-02-2023 12:48,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 12:48,27730,fes,INFO,1,SessionRefresh: session=SID1988 ok,Normal
+25-02-2023 12:48,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 12:49,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 12:49,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 12:49,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 12:50,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 12:50,27730,fes,INFO,3,SessionRefresh: session=SID1117 ok,Normal
+25-02-2023 12:50,27730,fes,INFO,7,Heartbeat: keepalive session=SID1069,Normal
+25-02-2023 12:51,27730,fes,INFO,1,Heartbeat: keepalive session=SID1274,Normal
+25-02-2023 12:52,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 12:52,27730,fes,ERROR,27,"UserAccountExpired: user=dan,session=SID1279,ip=10.0.0.49,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 12:52,27730,fes,INFO,3,Heartbeat: keepalive session=SID1162,Normal
+25-02-2023 12:52,27730,fes,INFO,2,SessionRefresh: session=SID1073 ok,Normal
+25-02-2023 12:53,27730,fes,INFO,2,Cleanup: closed session=SID1523,Normal
+25-02-2023 12:53,27730,fes,ERROR,58,"ProxyConnectionFailed: user=frank,session=SID1926,ip=10.0.0.14,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 12:53,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 12:54,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 12:54,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:54,27730,fes,INFO,2,Cleanup: closed session=SID1311,Normal
+25-02-2023 12:55,27730,fes,INFO,3,Heartbeat: keepalive session=SID1119,Normal
+25-02-2023 12:55,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 12:55,27730,fes,ERROR,75,"LicenseExpired: user=bob,session=SID1063,ip=10.0.0.2,err=LicenseExpiredIssue",License Error
+25-02-2023 12:56,27730,fes,INFO,8,Cleanup: closed session=SID1912,Normal
+25-02-2023 12:56,27730,fes,INFO,3,Cleanup: closed session=SID1130,Normal
+25-02-2023 12:56,27730,fes,ERROR,93,"UserAccountExpired: user=charlie,session=SID1484,ip=10.0.0.19,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 12:56,27730,fes,INFO,6,SessionRefresh: session=SID1406 ok,Normal
+25-02-2023 12:57,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 12:57,27730,fes,INFO,10,Cleanup: closed session=SID1111,Normal
+25-02-2023 12:57,27730,fes,INFO,7,Cleanup: closed session=SID1816,Normal
+25-02-2023 12:58,27730,fes,INFO,8,SessionRefresh: session=SID1815 ok,Normal
+25-02-2023 12:58,27730,fes,INFO,7,SessionRefresh: session=SID1140 ok,Normal
+25-02-2023 12:59,27730,fes,INFO,2,Cleanup: closed session=SID1954,Normal
+25-02-2023 12:59,27730,fes,ERROR,71,"SAMLFailure: user=bob,ip=10.0.0.46,err=SAMLFailureIssue",SAML Error
+25-02-2023 13:00,27730,fes,INFO,1,Heartbeat: keepalive session=SID1282,Normal
+25-02-2023 13:00,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 13:00,27730,fes,INFO,4,SessionRefresh: session=SID1753 ok,Normal
+25-02-2023 13:01,27730,fes,INFO,4,Heartbeat: keepalive session=SID1443,Normal
+25-02-2023 13:01,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 13:01,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 13:02,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 13:02,27730,fes,ERROR,87,"EPSComplianceFailed: user=charlie,ip=10.0.0.25,err=AVNotRunning",EPS Failure
+25-02-2023 13:02,27730,fes,ERROR,37,"SAMLFailure: user=dan,ip=10.0.0.43,err=SAMLFailureIssue",SAML Error
+25-02-2023 13:03,27730,fes,ERROR,30,"SAMLFailure: user=frank,ip=10.0.0.14,err=SAMLFailureIssue",SAML Error
+25-02-2023 13:03,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 13:03,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 13:04,27730,fes,INFO,8,Cleanup: closed session=SID1822,Normal
+25-02-2023 13:03,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 13:04,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 13:04,27730,fes,INFO,2,SessionRefresh: session=SID1818 ok,Normal
+25-02-2023 13:05,27730,fes,ERROR,99,"TwoFactorFailed: user=alice,session=SID1716,ip=10.0.0.43,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 13:05,27730,fes,INFO,7,Cleanup: closed session=SID1358,Normal
+25-02-2023 13:05,27730,fes,INFO,2,Heartbeat: keepalive session=SID1948,Normal
+25-02-2023 13:06,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 13:06,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 13:06,27730,fes,INFO,8,SessionRefresh: session=SID1994 ok,Normal
+25-02-2023 13:07,27730,fes,ERROR,76,"TokenExpired: user=frank,session=SID1613,ip=10.0.0.34,err=TokenExpiredIssue",Token Expired
+25-02-2023 13:07,27730,fes,ERROR,63,"LicenseExpired: user=bob,session=SID1032,ip=10.0.0.3,err=LicenseExpiredIssue",License Error
+25-02-2023 13:07,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 13:07,27730,fes,INFO,7,Heartbeat: keepalive session=SID1549,Normal
+25-02-2023 13:08,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:08,27730,fes,ERROR,66,"UserAccountExpired: user=alice,session=SID1207,ip=10.0.0.42,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 13:09,27730,fes,INFO,8,Heartbeat: keepalive session=SID1238,Normal
+25-02-2023 13:09,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 13:09,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 13:10,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 13:10,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 13:10,27730,fes,ERROR,87,"CertificateError: user=frank,ip=10.0.0.29,err=CertificateErrorIssue",Certificate Error
+25-02-2023 13:11,27730,fes,INFO,1,SessionRefresh: session=SID1415 ok,Normal
+25-02-2023 13:11,27730,fes,INFO,2,SessionRefresh: session=SID1182 ok,Normal
+25-02-2023 13:11,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 13:11,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 13:12,27730,fes,INFO,4,SessionRefresh: session=SID1029 ok,Normal
+25-02-2023 13:12,27730,fes,ERROR,80,"LicenseExpired: user=alice,session=SID1010,ip=10.0.0.12,err=LicenseExpiredIssue",License Error
+25-02-2023 13:13,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 13:13,27730,fes,INFO,7,SessionRefresh: session=SID1581 ok,Normal
+25-02-2023 13:14,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:14,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 13:14,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 13:15,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:15,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 13:15,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:15,27730,fes,INFO,3,SessionRefresh: session=SID1591 ok,Normal
+25-02-2023 13:16,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 13:16,27730,fes,INFO,10,Heartbeat: keepalive session=SID1043,Normal
+25-02-2023 13:16,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 13:17,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 13:17,27730,fes,ERROR,37,"CertificateError: user=frank,ip=10.0.0.8,err=CertificateErrorIssue",Certificate Error
+25-02-2023 13:17,27730,fes,INFO,7,Cleanup: closed session=SID1330,Normal
+25-02-2023 13:18,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 13:18,27730,fes,INFO,6,SessionRefresh: session=SID1777 ok,Normal
+25-02-2023 13:19,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 13:19,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 13:19,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 13:19,27730,fes,INFO,7,Cleanup: closed session=SID1031,Normal
+25-02-2023 13:20,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 13:20,27730,fes,ERROR,27,"TokenExpired: user=dan,session=SID1778,ip=10.0.0.39,err=TokenExpiredIssue",Token Expired
+25-02-2023 13:20,27730,fes,INFO,1,Heartbeat: keepalive session=SID1508,Normal
+25-02-2023 13:21,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 13:21,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 13:22,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:22,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:22,27730,fes,ERROR,31,"TwoFactorFailed: user=dan,session=SID1584,ip=10.0.0.14,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 13:22,27730,fes,INFO,5,Heartbeat: keepalive session=SID1841,Normal
+25-02-2023 13:23,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 13:23,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 13:23,27730,fes,INFO,1,Heartbeat: keepalive session=SID1558,Normal
+25-02-2023 13:23,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 13:24,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 13:24,27730,fes,INFO,8,Cleanup: closed session=SID1289,Normal
+25-02-2023 13:25,27730,fes,INFO,6,Heartbeat: keepalive session=SID1622,Normal
+25-02-2023 13:25,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 13:25,27730,fes,INFO,4,SessionRefresh: session=SID1625 ok,Normal
+25-02-2023 13:26,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 13:26,27730,fes,INFO,10,SessionRefresh: session=SID1514 ok,Normal
+25-02-2023 13:27,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 13:27,27730,fes,INFO,8,Cleanup: closed session=SID1406,Normal
+25-02-2023 13:27,27730,fes,INFO,3,Heartbeat: keepalive session=SID1094,Normal
+25-02-2023 13:28,27730,fes,ERROR,70,"LicenseExpired: user=dan,session=SID1274,ip=10.0.0.24,err=LicenseExpiredIssue",License Error
+25-02-2023 13:27,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:28,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 13:28,27730,fes,INFO,8,SessionRefresh: session=SID1622 ok,Normal
+25-02-2023 13:28,27730,fes,INFO,4,Heartbeat: keepalive session=SID1086,Normal
+25-02-2023 13:29,27730,fes,INFO,2,SessionRefresh: session=SID1344 ok,Normal
+25-02-2023 13:30,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 13:29,27730,fes,INFO,6,Cleanup: closed session=SID1525,Normal
+25-02-2023 13:30,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 13:31,27730,fes,INFO,1,Cleanup: closed session=SID1451,Normal
+25-02-2023 13:31,27730,fes,INFO,6,Cleanup: closed session=SID1642,Normal
+25-02-2023 13:31,27730,fes,INFO,2,SessionRefresh: session=SID1629 ok,Normal
+25-02-2023 13:32,27730,fes,INFO,2,Cleanup: closed session=SID1796,Normal
+25-02-2023 13:32,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:32,27730,fes,INFO,3,SessionRefresh: session=SID1768 ok,Normal
+25-02-2023 13:33,27730,fes,INFO,3,SessionRefresh: session=SID1662 ok,Normal
+25-02-2023 13:32,27730,fes,ERROR,90,"CertificateError: user=frank,ip=10.0.0.26,err=CertificateErrorIssue",Certificate Error
+25-02-2023 13:33,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 13:33,27730,fes,INFO,10,Cleanup: closed session=SID1455,Normal
+25-02-2023 13:34,27730,fes,INFO,10,Cleanup: closed session=SID1869,Normal
+25-02-2023 13:34,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 13:34,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:34,27730,fes,INFO,9,SessionRefresh: session=SID1323 ok,Normal
+25-02-2023 13:35,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 13:36,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 13:36,27730,fes,WARN,38,"HighLatency: session=SID1521,latency=7018ms",Performance Warning
+25-02-2023 13:36,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 13:36,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:37,27730,fes,INFO,10,Cleanup: closed session=SID1738,Normal
+25-02-2023 13:37,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 13:38,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 13:38,27730,fes,ERROR,45,"TokenExpired: user=charlie,session=SID1041,ip=10.0.0.31,err=TokenExpiredIssue",Token Expired
+25-02-2023 13:38,27730,fes,INFO,6,Cleanup: closed session=SID1796,Normal
+25-02-2023 13:38,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 13:39,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 13:39,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 13:40,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 13:40,27730,fes,INFO,8,SessionRefresh: session=SID1423 ok,Normal
+25-02-2023 13:40,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 13:41,27730,fes,INFO,4,Heartbeat: keepalive session=SID1245,Normal
+25-02-2023 13:41,27730,fes,INFO,6,SessionRefresh: session=SID1732 ok,Normal
+25-02-2023 13:41,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 13:42,27730,fes,INFO,8,Cleanup: closed session=SID1856,Normal
+25-02-2023 13:41,27730,fes,INFO,9,SessionRefresh: session=SID1719 ok,Normal
+25-02-2023 13:42,27730,fes,INFO,6,Cleanup: closed session=SID1114,Normal
+25-02-2023 13:43,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:42,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 13:43,27730,fes,ERROR,28,"AuthenticationFailed: user=frank,session=SID1275,ip=10.0.0.9,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 13:44,27730,fes,INFO,5,Cleanup: closed session=SID1728,Normal
+25-02-2023 13:44,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 13:44,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 13:44,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 13:45,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 13:45,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 13:46,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 13:46,27730,fes,INFO,6,Heartbeat: keepalive session=SID1111,Normal
+25-02-2023 13:46,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 13:46,27730,fes,INFO,10,Cleanup: closed session=SID1442,Normal
+25-02-2023 13:47,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:47,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:47,27730,fes,INFO,5,Heartbeat: keepalive session=SID1576,Normal
+25-02-2023 13:48,27730,fes,INFO,2,SessionRefresh: session=SID1576 ok,Normal
+25-02-2023 13:48,27730,fes,INFO,5,Heartbeat: keepalive session=SID1542,Normal
+25-02-2023 13:48,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 13:49,27730,fes,WARN,80,"HighLatency: session=SID1507,latency=6385ms",Performance Warning
+25-02-2023 13:49,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 13:49,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 13:50,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 13:50,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 13:50,27730,fes,INFO,10,Heartbeat: keepalive session=SID1519,Normal
+25-02-2023 13:50,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:51,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 13:51,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 13:51,27730,fes,INFO,7,Cleanup: closed session=SID1431,Normal
+25-02-2023 13:52,27730,fes,INFO,1,SessionRefresh: session=SID1640 ok,Normal
+25-02-2023 13:53,27730,fes,ERROR,43,"TokenExpired: user=alice,session=SID1552,ip=10.0.0.24,err=TokenExpiredIssue",Token Expired
+25-02-2023 13:53,27730,fes,INFO,7,Cleanup: closed session=SID1789,Normal
+25-02-2023 13:53,27730,fes,ERROR,50,"SAMLFailure: user=erin,ip=10.0.0.17,err=SAMLFailureIssue",SAML Error
+25-02-2023 13:54,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 13:53,27730,fes,INFO,6,Cleanup: closed session=SID1500,Normal
+25-02-2023 13:54,27730,fes,ERROR,44,"SAMLFailure: user=alice,ip=10.0.0.14,err=SAMLFailureIssue",SAML Error
+25-02-2023 13:54,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 13:54,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 13:55,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:55,27730,fes,INFO,2,Cleanup: closed session=SID1268,Normal
+25-02-2023 13:56,27730,fes,INFO,4,Cleanup: closed session=SID1758,Normal
+25-02-2023 13:56,27730,fes,ERROR,47,"LicenseExpired: user=erin,session=SID1810,ip=10.0.0.19,err=LicenseExpiredIssue",License Error
+25-02-2023 13:57,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 13:57,27730,fes,INFO,3,Heartbeat: keepalive session=SID1233,Normal
+25-02-2023 13:57,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 13:58,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 13:58,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:58,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:59,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 13:58,27730,fes,INFO,9,SessionRefresh: session=SID1449 ok,Normal
+25-02-2023 13:59,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:00,27730,fes,ERROR,82,"TwoFactorFailed: user=charlie,session=SID1132,ip=10.0.0.11,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 13:59,27730,fes,ERROR,79,"TwoFactorFailed: user=bob,session=SID1371,ip=10.0.0.27,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 14:00,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 14:01,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:01,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 14:01,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 14:01,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 14:02,27730,fes,INFO,6,Cleanup: closed session=SID1967,Normal
+25-02-2023 14:02,27730,fes,INFO,5,Cleanup: closed session=SID1613,Normal
+25-02-2023 14:02,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 14:03,27730,fes,INFO,8,SessionRefresh: session=SID1937 ok,Normal
+25-02-2023 14:03,27730,fes,INFO,6,Heartbeat: keepalive session=SID1282,Normal
+25-02-2023 14:04,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 14:03,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 14:04,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 14:04,27730,fes,INFO,9,Cleanup: closed session=SID1465,Normal
+25-02-2023 14:04,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 14:05,27730,fes,INFO,9,Heartbeat: keepalive session=SID1502,Normal
+25-02-2023 14:05,27730,fes,INFO,9,Cleanup: closed session=SID1413,Normal
+25-02-2023 14:06,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 14:06,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:07,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 14:06,27730,fes,ERROR,44,"ConnectionFailed: user=alice,session=SID1664,ip=10.0.0.19,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 14:07,27730,fes,ERROR,29,"AuthenticationFailed: user=charlie,session=SID1423,ip=10.0.0.35,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 14:08,27730,fes,ERROR,93,"TwoFactorFailed: user=charlie,session=SID1008,ip=10.0.0.27,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 14:07,27730,fes,INFO,1,Cleanup: closed session=SID1020,Normal
+25-02-2023 14:08,27730,fes,ERROR,35,"TokenExpired: user=alice,session=SID1729,ip=10.0.0.5,err=TokenExpiredIssue",Token Expired
+25-02-2023 14:09,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:09,27730,fes,INFO,8,SessionRefresh: session=SID1385 ok,Normal
+25-02-2023 14:09,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 14:09,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:10,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 14:10,27730,fes,INFO,3,Cleanup: closed session=SID1076,Normal
+25-02-2023 14:11,27730,fes,INFO,4,Heartbeat: keepalive session=SID1734,Normal
+25-02-2023 14:11,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 14:11,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:12,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 14:12,27730,fes,INFO,9,SessionRefresh: session=SID1236 ok,Normal
+25-02-2023 14:12,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 14:13,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 14:12,27730,fes,ERROR,46,"CertificateError: user=frank,ip=10.0.0.43,err=CertificateErrorIssue",Certificate Error
+25-02-2023 14:13,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:13,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 14:13,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:14,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 14:15,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 14:15,27730,fes,INFO,5,Heartbeat: keepalive session=SID1373,Normal
+25-02-2023 14:15,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 14:16,27730,fes,INFO,3,Cleanup: closed session=SID1222,Normal
+25-02-2023 14:16,27730,fes,ERROR,26,"ProxyConnectionFailed: user=erin,session=SID1745,ip=10.0.0.22,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 14:16,27730,fes,INFO,7,Heartbeat: keepalive session=SID1245,Normal
+25-02-2023 14:16,27730,fes,INFO,5,Heartbeat: keepalive session=SID1399,Normal
+25-02-2023 14:17,27730,fes,INFO,4,SessionRefresh: session=SID1439 ok,Normal
+25-02-2023 14:17,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 14:17,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 14:18,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 14:18,27730,fes,INFO,1,Heartbeat: keepalive session=SID1233,Normal
+25-02-2023 14:19,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 14:18,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 14:19,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 14:19,27730,fes,INFO,8,Cleanup: closed session=SID1545,Normal
+25-02-2023 14:20,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 14:20,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 14:20,27730,fes,INFO,3,Heartbeat: keepalive session=SID1625,Normal
+25-02-2023 14:21,27730,fes,ERROR,62,"TokenExpired: user=erin,session=SID1362,ip=10.0.0.11,err=TokenExpiredIssue",Token Expired
+25-02-2023 14:21,27730,fes,INFO,8,SessionRefresh: session=SID1861 ok,Normal
+25-02-2023 14:22,27730,fes,INFO,6,SessionRefresh: session=SID1367 ok,Normal
+25-02-2023 14:22,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 14:22,27730,fes,INFO,10,Heartbeat: keepalive session=SID1479,Normal
+25-02-2023 14:22,27730,fes,INFO,1,Heartbeat: keepalive session=SID1218,Normal
+25-02-2023 14:23,27730,fes,INFO,5,SessionRefresh: session=SID1307 ok,Normal
+25-02-2023 14:23,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 14:24,27730,fes,INFO,7,Heartbeat: keepalive session=SID1151,Normal
+25-02-2023 14:23,27730,fes,INFO,2,Heartbeat: keepalive session=SID1888,Normal
+25-02-2023 14:24,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 14:25,27730,fes,ERROR,78,"LicenseExpired: user=erin,session=SID1285,ip=10.0.0.14,err=LicenseExpiredIssue",License Error
+25-02-2023 14:24,27730,fes,INFO,10,Heartbeat: keepalive session=SID1593,Normal
+25-02-2023 14:25,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:25,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 14:25,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 14:26,27730,fes,INFO,3,SessionRefresh: session=SID1967 ok,Normal
+25-02-2023 14:26,27730,fes,ERROR,97,"ConnectionFailed: user=frank,session=SID1613,ip=10.0.0.20,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 14:27,27730,fes,ERROR,75,"SAMLFailure: user=dan,ip=10.0.0.40,err=SAMLFailureIssue",SAML Error
+25-02-2023 14:27,27730,fes,INFO,2,Cleanup: closed session=SID1074,Normal
+25-02-2023 14:27,27730,fes,ERROR,25,"EPSComplianceFailed: user=frank,ip=10.0.0.41,err=AVNotRunning",EPS Failure
+25-02-2023 14:28,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 14:28,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 14:28,27730,fes,INFO,9,Heartbeat: keepalive session=SID1681,Normal
+25-02-2023 14:29,27730,fes,INFO,1,Cleanup: closed session=SID1882,Normal
+25-02-2023 14:29,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 14:29,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:30,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 14:30,27730,fes,ERROR,94,"SAMLFailure: user=charlie,ip=10.0.0.32,err=SAMLFailureIssue",SAML Error
+25-02-2023 14:30,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 14:31,27730,fes,ERROR,53,"SAMLFailure: user=charlie,ip=10.0.0.27,err=SAMLFailureIssue",SAML Error
+25-02-2023 14:31,27730,fes,INFO,8,Heartbeat: keepalive session=SID1621,Normal
+25-02-2023 14:32,27730,fes,ERROR,45,"UserAccountExpired: user=erin,session=SID1598,ip=10.0.0.3,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 14:31,27730,fes,INFO,8,Cleanup: closed session=SID1949,Normal
+25-02-2023 14:32,27730,fes,INFO,1,Cleanup: closed session=SID1907,Normal
+25-02-2023 14:32,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 14:32,27730,fes,INFO,9,SessionRefresh: session=SID1815 ok,Normal
+25-02-2023 14:33,27730,fes,INFO,1,SessionRefresh: session=SID1238 ok,Normal
+25-02-2023 14:34,27730,fes,ERROR,63,"AuthenticationFailed: user=alice,session=SID1754,ip=10.0.0.12,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 14:33,27730,fes,ERROR,83,"UserAccountExpired: user=dan,session=SID1196,ip=10.0.0.27,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 14:34,27730,fes,INFO,2,Cleanup: closed session=SID1636,Normal
+25-02-2023 14:34,27730,fes,INFO,7,SessionRefresh: session=SID1468 ok,Normal
+25-02-2023 14:35,27730,fes,INFO,9,Heartbeat: keepalive session=SID1960,Normal
+25-02-2023 14:35,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 14:35,27730,fes,ERROR,41,"TwoFactorFailed: user=frank,session=SID1914,ip=10.0.0.5,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 14:36,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 14:36,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:36,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:36,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:37,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:38,27730,fes,ERROR,36,"UserAccountExpired: user=dan,session=SID1507,ip=10.0.0.35,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 14:38,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:38,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 14:39,27730,fes,INFO,9,Cleanup: closed session=SID1838,Normal
+25-02-2023 14:39,27730,fes,INFO,7,Cleanup: closed session=SID1824,Normal
+25-02-2023 14:39,27730,fes,INFO,9,Heartbeat: keepalive session=SID1573,Normal
+25-02-2023 14:39,27730,fes,INFO,10,Heartbeat: keepalive session=SID1015,Normal
+25-02-2023 14:40,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 14:40,27730,fes,INFO,8,SessionRefresh: session=SID1567 ok,Normal
+25-02-2023 14:41,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:41,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 14:41,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 14:41,27730,fes,ERROR,77,"TwoFactorFailed: user=frank,session=SID1809,ip=10.0.0.48,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 14:42,27730,fes,INFO,10,SessionRefresh: session=SID1601 ok,Normal
+25-02-2023 14:42,27730,fes,INFO,5,Heartbeat: keepalive session=SID1122,Normal
+25-02-2023 14:42,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:43,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:43,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:44,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 14:43,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 14:44,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 14:44,27730,fes,INFO,5,SessionRefresh: session=SID1017 ok,Normal
+25-02-2023 14:44,27730,fes,INFO,3,SessionRefresh: session=SID1677 ok,Normal
+25-02-2023 14:45,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:45,27730,fes,INFO,4,Cleanup: closed session=SID1022,Normal
+25-02-2023 14:45,27730,fes,INFO,5,SessionRefresh: session=SID1116 ok,Normal
+25-02-2023 14:46,27730,fes,INFO,2,Heartbeat: keepalive session=SID1628,Normal
+25-02-2023 14:46,27730,fes,WARN,80,"HighLatency: session=SID1758,latency=7629ms",Performance Warning
+25-02-2023 14:47,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:47,27730,fes,INFO,5,Cleanup: closed session=SID1448,Normal
+25-02-2023 14:48,27730,fes,ERROR,44,"SAMLFailure: user=dan,ip=10.0.0.12,err=SAMLFailureIssue",SAML Error
+25-02-2023 14:47,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:48,27730,fes,INFO,4,Heartbeat: keepalive session=SID1646,Normal
+25-02-2023 14:48,27730,fes,ERROR,37,"CertificateError: user=alice,ip=10.0.0.26,err=CertificateErrorIssue",Certificate Error
+25-02-2023 14:49,27730,fes,INFO,1,Cleanup: closed session=SID1015,Normal
+25-02-2023 14:49,27730,fes,ERROR,39,"SAMLFailure: user=charlie,ip=10.0.0.30,err=SAMLFailureIssue",SAML Error
+25-02-2023 14:49,27730,fes,WARN,35,"HighLatency: session=SID1676,latency=3315ms",Performance Warning
+25-02-2023 14:50,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 14:50,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 14:51,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 14:51,27730,fes,ERROR,49,"EPSComplianceFailed: user=dan,ip=10.0.0.30,err=AVNotRunning",EPS Failure
+25-02-2023 14:51,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 14:52,27730,fes,INFO,3,SessionRefresh: session=SID1800 ok,Normal
+25-02-2023 14:52,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 14:52,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:53,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 14:52,27730,fes,INFO,4,SessionRefresh: session=SID1251 ok,Normal
+25-02-2023 14:53,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 14:54,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 14:54,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 14:54,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:54,27730,fes,INFO,2,Cleanup: closed session=SID1583,Normal
+25-02-2023 14:54,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 14:55,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 14:55,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 14:55,27730,fes,ERROR,33,"TwoFactorFailed: user=charlie,session=SID1045,ip=10.0.0.18,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 14:56,27730,fes,INFO,7,Cleanup: closed session=SID1235,Normal
+25-02-2023 14:56,27730,fes,INFO,4,Cleanup: closed session=SID1825,Normal
+25-02-2023 14:56,27730,fes,INFO,8,Cleanup: closed session=SID1617,Normal
+25-02-2023 14:57,27730,fes,INFO,3,SessionRefresh: session=SID1217 ok,Normal
+25-02-2023 14:58,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 14:58,27730,fes,INFO,1,Cleanup: closed session=SID1847,Normal
+25-02-2023 14:58,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 14:58,27730,fes,INFO,1,Heartbeat: keepalive session=SID1819,Normal
+25-02-2023 14:58,27730,fes,ERROR,33,"ProxyConnectionFailed: user=dan,session=SID1108,ip=10.0.0.23,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 14:59,27730,fes,INFO,3,Heartbeat: keepalive session=SID1869,Normal
+25-02-2023 14:59,27730,fes,INFO,9,Cleanup: closed session=SID1554,Normal
+25-02-2023 15:00,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 15:00,27730,fes,INFO,1,SessionRefresh: session=SID1594 ok,Normal
+25-02-2023 15:00,27730,fes,ERROR,98,"AuthenticationFailed: user=erin,session=SID1780,ip=10.0.0.24,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 15:01,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 15:01,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 15:02,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 15:02,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 15:02,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 15:03,27730,fes,INFO,5,SessionRefresh: session=SID1545 ok,Normal
+25-02-2023 15:02,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:03,27730,fes,INFO,4,SessionRefresh: session=SID1728 ok,Normal
+25-02-2023 15:03,27730,fes,ERROR,79,"TokenExpired: user=erin,session=SID1705,ip=10.0.0.35,err=TokenExpiredIssue",Token Expired
+25-02-2023 15:04,27730,fes,ERROR,76,"LicenseExpired: user=frank,session=SID1390,ip=10.0.0.42,err=LicenseExpiredIssue",License Error
+25-02-2023 15:04,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 15:05,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 15:04,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 15:05,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:06,27730,fes,INFO,1,Cleanup: closed session=SID1890,Normal
+25-02-2023 15:05,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:06,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 15:07,27730,fes,INFO,8,SessionRefresh: session=SID1555 ok,Normal
+25-02-2023 15:06,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 15:07,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:08,27730,fes,INFO,5,Cleanup: closed session=SID1130,Normal
+25-02-2023 15:07,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 15:08,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 15:08,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:09,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 15:09,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 15:10,27730,fes,INFO,8,Heartbeat: keepalive session=SID1011,Normal
+25-02-2023 15:10,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 15:10,27730,fes,INFO,5,Cleanup: closed session=SID1915,Normal
+25-02-2023 15:11,27730,fes,INFO,3,SessionRefresh: session=SID1765 ok,Normal
+25-02-2023 15:11,27730,fes,INFO,5,SessionRefresh: session=SID1544 ok,Normal
+25-02-2023 15:11,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 15:11,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 15:11,27730,fes,ERROR,63,"EPSComplianceFailed: user=erin,ip=10.0.0.33,err=AVNotRunning",EPS Failure
+25-02-2023 15:12,27730,fes,INFO,7,SessionRefresh: session=SID1921 ok,Normal
+25-02-2023 15:12,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 15:13,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 15:13,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:13,27730,fes,INFO,6,SessionRefresh: session=SID1657 ok,Normal
+25-02-2023 15:14,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 15:14,27730,fes,INFO,9,SessionRefresh: session=SID1510 ok,Normal
+25-02-2023 15:14,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:15,27730,fes,INFO,1,Cleanup: closed session=SID1448,Normal
+25-02-2023 15:15,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 15:15,27730,fes,INFO,6,SessionRefresh: session=SID1591 ok,Normal
+25-02-2023 15:16,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 15:16,27730,fes,ERROR,90,"AuthenticationFailed: user=erin,session=SID1572,ip=10.0.0.15,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 15:16,27730,fes,ERROR,68,"EPSComplianceFailed: user=charlie,ip=10.0.0.5,err=AVNotRunning",EPS Failure
+25-02-2023 15:16,27730,fes,INFO,10,Heartbeat: keepalive session=SID1565,Normal
+25-02-2023 15:17,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:18,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:18,27730,fes,INFO,5,SessionRefresh: session=SID1360 ok,Normal
+25-02-2023 15:18,27730,fes,INFO,10,Heartbeat: keepalive session=SID1281,Normal
+25-02-2023 15:18,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:18,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 15:19,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 15:19,27730,fes,INFO,4,Heartbeat: keepalive session=SID1134,Normal
+25-02-2023 15:19,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 15:20,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:20,27730,fes,INFO,7,Cleanup: closed session=SID1795,Normal
+25-02-2023 15:21,27730,fes,ERROR,94,"LicenseExpired: user=bob,session=SID1261,ip=10.0.0.17,err=LicenseExpiredIssue",License Error
+25-02-2023 15:21,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 15:21,27730,fes,INFO,10,SessionRefresh: session=SID1071 ok,Normal
+25-02-2023 15:22,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:22,27730,fes,INFO,6,SessionRefresh: session=SID1771 ok,Normal
+25-02-2023 15:23,27730,fes,INFO,4,Heartbeat: keepalive session=SID1767,Normal
+25-02-2023 15:22,27730,fes,INFO,6,SessionRefresh: session=SID1041 ok,Normal
+25-02-2023 15:23,27730,fes,ERROR,25,"ProxyConnectionFailed: user=frank,session=SID1573,ip=10.0.0.36,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 15:23,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 15:24,27730,fes,ERROR,22,"AuthenticationFailed: user=dan,session=SID1083,ip=10.0.0.18,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 15:24,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 15:25,27730,fes,INFO,5,Cleanup: closed session=SID1501,Normal
+25-02-2023 15:25,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 15:25,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 15:25,27730,fes,ERROR,97,"ProxyConnectionFailed: user=erin,session=SID1516,ip=10.0.0.8,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 15:25,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:26,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 15:27,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 15:26,27730,fes,INFO,4,SessionRefresh: session=SID1974 ok,Normal
+25-02-2023 15:27,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 15:28,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:28,27730,fes,ERROR,60,"CertificateError: user=frank,ip=10.0.0.25,err=CertificateErrorIssue",Certificate Error
+25-02-2023 15:28,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 15:28,27730,fes,INFO,8,Cleanup: closed session=SID1849,Normal
+25-02-2023 15:29,27730,fes,INFO,9,SessionRefresh: session=SID1512 ok,Normal
+25-02-2023 15:29,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 15:30,27730,fes,INFO,3,Cleanup: closed session=SID1343,Normal
+25-02-2023 15:29,27730,fes,INFO,10,Heartbeat: keepalive session=SID1728,Normal
+25-02-2023 15:30,27730,fes,ERROR,59,"AuthenticationFailed: user=erin,session=SID1213,ip=10.0.0.42,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 15:31,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:31,27730,fes,ERROR,85,"UserAccountExpired: user=dan,session=SID1131,ip=10.0.0.2,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 15:31,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 15:31,27730,fes,INFO,3,Cleanup: closed session=SID1236,Normal
+25-02-2023 15:32,27730,fes,INFO,6,Cleanup: closed session=SID1646,Normal
+25-02-2023 15:32,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:32,27730,fes,INFO,5,SessionRefresh: session=SID1635 ok,Normal
+25-02-2023 15:33,27730,fes,INFO,1,Cleanup: closed session=SID1056,Normal
+25-02-2023 15:33,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 15:33,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 15:33,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 15:34,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:34,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 15:35,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 15:35,27730,fes,ERROR,88,"ProxyConnectionFailed: user=charlie,session=SID1785,ip=10.0.0.45,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 15:36,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:36,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:36,27730,fes,INFO,2,SessionRefresh: session=SID1525 ok,Normal
+25-02-2023 15:36,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 15:36,27730,fes,INFO,10,Heartbeat: keepalive session=SID1982,Normal
+25-02-2023 15:37,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 15:37,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:37,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:38,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 15:38,27730,fes,INFO,2,Cleanup: closed session=SID1064,Normal
+25-02-2023 15:39,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:39,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:39,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 15:40,27730,fes,INFO,9,Cleanup: closed session=SID1835,Normal
+25-02-2023 15:40,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 15:40,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 15:40,27730,fes,INFO,10,Heartbeat: keepalive session=SID1586,Normal
+25-02-2023 15:41,27730,fes,INFO,8,Heartbeat: keepalive session=SID1489,Normal
+25-02-2023 15:42,27730,fes,INFO,5,Heartbeat: keepalive session=SID1438,Normal
+25-02-2023 15:42,27730,fes,INFO,10,Cleanup: closed session=SID1882,Normal
+25-02-2023 15:42,27730,fes,INFO,9,Heartbeat: keepalive session=SID1755,Normal
+25-02-2023 15:42,27730,fes,WARN,95,"HighLatency: session=SID1144,latency=5800ms",Performance Warning
+25-02-2023 15:43,27730,fes,ERROR,95,"UserAccountExpired: user=alice,session=SID1043,ip=10.0.0.49,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 15:43,27730,fes,INFO,2,Heartbeat: keepalive session=SID1180,Normal
+25-02-2023 15:43,27730,fes,ERROR,73,"ProxyConnectionFailed: user=erin,session=SID1595,ip=10.0.0.34,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 15:44,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 15:44,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:44,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 15:44,27730,fes,ERROR,88,"CertificateError: user=bob,ip=10.0.0.8,err=CertificateErrorIssue",Certificate Error
+25-02-2023 15:45,27730,fes,INFO,3,SessionRefresh: session=SID1370 ok,Normal
+25-02-2023 15:45,27730,fes,INFO,7,Cleanup: closed session=SID1331,Normal
+25-02-2023 15:45,27730,fes,INFO,5,Cleanup: closed session=SID1298,Normal
+25-02-2023 15:46,27730,fes,ERROR,78,"ConnectionFailed: user=frank,session=SID1948,ip=10.0.0.47,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 15:46,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 15:46,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 15:47,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:48,27730,fes,INFO,8,Cleanup: closed session=SID1794,Normal
+25-02-2023 15:47,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:48,27730,fes,INFO,2,Heartbeat: keepalive session=SID1372,Normal
+25-02-2023 15:49,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 15:48,27730,fes,INFO,7,Heartbeat: keepalive session=SID1733,Normal
+25-02-2023 15:49,27730,fes,INFO,1,Heartbeat: keepalive session=SID1392,Normal
+25-02-2023 15:50,27730,fes,INFO,4,SessionRefresh: session=SID1823 ok,Normal
+25-02-2023 15:50,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 15:50,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 15:51,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 15:51,27730,fes,INFO,7,Heartbeat: keepalive session=SID1595,Normal
+25-02-2023 15:51,27730,fes,ERROR,24,"TokenExpired: user=bob,session=SID1932,ip=10.0.0.12,err=TokenExpiredIssue",Token Expired
+25-02-2023 15:52,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 15:51,27730,fes,INFO,8,Heartbeat: keepalive session=SID1821,Normal
+25-02-2023 15:52,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 15:53,27730,fes,INFO,5,Heartbeat: keepalive session=SID1841,Normal
+25-02-2023 15:52,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:53,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 15:53,27730,fes,INFO,1,SessionRefresh: session=SID1167 ok,Normal
+25-02-2023 15:54,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 15:54,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 15:54,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 15:54,27730,fes,INFO,4,Cleanup: closed session=SID1810,Normal
+25-02-2023 15:55,27730,fes,ERROR,71,"TokenExpired: user=alice,session=SID1111,ip=10.0.0.49,err=TokenExpiredIssue",Token Expired
+25-02-2023 15:55,27730,fes,INFO,1,SessionRefresh: session=SID1228 ok,Normal
+25-02-2023 15:56,27730,fes,INFO,7,Heartbeat: keepalive session=SID1309,Normal
+25-02-2023 15:56,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 15:57,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 15:56,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 15:57,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 15:57,27730,fes,INFO,5,Cleanup: closed session=SID1487,Normal
+25-02-2023 15:57,27730,fes,ERROR,92,"UserAccountExpired: user=erin,session=SID1821,ip=10.0.0.26,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 15:58,27730,fes,ERROR,21,"ProxyConnectionFailed: user=bob,session=SID1827,ip=10.0.0.22,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 15:58,27730,fes,INFO,3,SessionRefresh: session=SID1617 ok,Normal
+25-02-2023 15:59,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 15:59,27730,fes,ERROR,66,"LicenseExpired: user=charlie,session=SID1868,ip=10.0.0.25,err=LicenseExpiredIssue",License Error
+25-02-2023 15:59,27730,fes,INFO,2,SessionRefresh: session=SID1427 ok,Normal
+25-02-2023 16:00,27730,fes,ERROR,50,"EPSComplianceFailed: user=bob,ip=10.0.0.14,err=AVNotRunning",EPS Failure
+25-02-2023 16:00,27730,fes,ERROR,96,"LicenseExpired: user=frank,session=SID1075,ip=10.0.0.34,err=LicenseExpiredIssue",License Error
+25-02-2023 16:00,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 16:00,27730,fes,INFO,9,Cleanup: closed session=SID1369,Normal
+25-02-2023 16:01,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 16:01,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 16:02,27730,fes,INFO,6,Heartbeat: keepalive session=SID1663,Normal
+25-02-2023 16:02,27730,fes,INFO,2,Heartbeat: keepalive session=SID1733,Normal
+25-02-2023 16:02,27730,fes,ERROR,33,"UserAccountExpired: user=frank,session=SID1863,ip=10.0.0.15,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 16:03,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 16:03,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:03,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 16:04,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 16:04,27730,fes,ERROR,74,"CertificateError: user=charlie,ip=10.0.0.41,err=CertificateErrorIssue",Certificate Error
+25-02-2023 16:04,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 16:05,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 16:05,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 16:05,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:05,27730,fes,ERROR,26,"CertificateError: user=charlie,ip=10.0.0.5,err=CertificateErrorIssue",Certificate Error
+25-02-2023 16:06,27730,fes,INFO,10,SessionRefresh: session=SID1820 ok,Normal
+25-02-2023 16:06,27730,fes,WARN,86,"HighLatency: session=SID1982,latency=5525ms",Performance Warning
+25-02-2023 16:07,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 16:07,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 16:07,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:07,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 16:08,27730,fes,INFO,5,Heartbeat: keepalive session=SID1796,Normal
+25-02-2023 16:08,27730,fes,INFO,5,Cleanup: closed session=SID1090,Normal
+25-02-2023 16:09,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 16:09,27730,fes,ERROR,43,"ProxyConnectionFailed: user=bob,session=SID1211,ip=10.0.0.47,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 16:09,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:09,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 16:10,27730,fes,INFO,4,Cleanup: closed session=SID1546,Normal
+25-02-2023 16:10,27730,fes,INFO,8,Cleanup: closed session=SID1174,Normal
+25-02-2023 16:11,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:11,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:11,27730,fes,ERROR,28,"TwoFactorFailed: user=charlie,session=SID1903,ip=10.0.0.38,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 16:12,27730,fes,INFO,10,Cleanup: closed session=SID1381,Normal
+25-02-2023 16:12,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:13,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 16:13,27730,fes,ERROR,50,"ConnectionFailed: user=dan,session=SID1324,ip=10.0.0.40,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 16:13,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 16:13,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 16:14,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 16:14,27730,fes,INFO,6,Heartbeat: keepalive session=SID1909,Normal
+25-02-2023 16:14,27730,fes,ERROR,28,"EPSComplianceFailed: user=dan,ip=10.0.0.44,err=AVNotRunning",EPS Failure
+25-02-2023 16:15,27730,fes,INFO,7,Heartbeat: keepalive session=SID1687,Normal
+25-02-2023 16:15,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 16:15,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 16:16,27730,fes,INFO,2,Heartbeat: keepalive session=SID1295,Normal
+25-02-2023 16:16,27730,fes,ERROR,40,"EPSComplianceFailed: user=alice,ip=10.0.0.21,err=AVNotRunning",EPS Failure
+25-02-2023 16:16,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 16:17,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:17,27730,fes,INFO,5,Heartbeat: keepalive session=SID1574,Normal
+25-02-2023 16:17,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 16:17,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:18,27730,fes,INFO,2,Heartbeat: keepalive session=SID1507,Normal
+25-02-2023 16:19,27730,fes,ERROR,41,"AuthenticationFailed: user=frank,session=SID1914,ip=10.0.0.17,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 16:19,27730,fes,INFO,6,Heartbeat: keepalive session=SID1555,Normal
+25-02-2023 16:19,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 16:19,27730,fes,INFO,8,Cleanup: closed session=SID1275,Normal
+25-02-2023 16:20,27730,fes,ERROR,31,"UserAccountExpired: user=charlie,session=SID1741,ip=10.0.0.47,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 16:20,27730,fes,INFO,6,SessionRefresh: session=SID1664 ok,Normal
+25-02-2023 16:20,27730,fes,INFO,4,Heartbeat: keepalive session=SID1545,Normal
+25-02-2023 16:20,27730,fes,WARN,36,"HighLatency: session=SID1249,latency=2593ms",Performance Warning
+25-02-2023 16:21,27730,fes,INFO,7,SessionRefresh: session=SID1752 ok,Normal
+25-02-2023 16:21,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 16:22,27730,fes,INFO,10,Heartbeat: keepalive session=SID1406,Normal
+25-02-2023 16:22,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 16:22,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 16:23,27730,fes,INFO,7,Heartbeat: keepalive session=SID1269,Normal
+25-02-2023 16:23,27730,fes,INFO,7,SessionRefresh: session=SID1885 ok,Normal
+25-02-2023 16:23,27730,fes,ERROR,53,"CertificateError: user=charlie,ip=10.0.0.2,err=CertificateErrorIssue",Certificate Error
+25-02-2023 16:24,27730,fes,INFO,2,SessionRefresh: session=SID1434 ok,Normal
+25-02-2023 16:24,27730,fes,INFO,1,SessionRefresh: session=SID1880 ok,Normal
+25-02-2023 16:24,27730,fes,INFO,6,SessionRefresh: session=SID1577 ok,Normal
+25-02-2023 16:24,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:25,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 16:25,27730,fes,ERROR,38,"LicenseExpired: user=erin,session=SID1634,ip=10.0.0.35,err=LicenseExpiredIssue",License Error
+25-02-2023 16:25,27730,fes,INFO,4,SessionRefresh: session=SID1127 ok,Normal
+25-02-2023 16:26,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 16:26,27730,fes,INFO,8,SessionRefresh: session=SID1053 ok,Normal
+25-02-2023 16:27,27730,fes,INFO,6,Cleanup: closed session=SID1922,Normal
+25-02-2023 16:27,27730,fes,INFO,5,SessionRefresh: session=SID1643 ok,Normal
+25-02-2023 16:27,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 16:28,27730,fes,INFO,7,Cleanup: closed session=SID1049,Normal
+25-02-2023 16:28,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:28,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 16:28,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:29,27730,fes,INFO,4,Cleanup: closed session=SID1993,Normal
+25-02-2023 16:29,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 16:30,27730,fes,INFO,9,SessionRefresh: session=SID1253 ok,Normal
+25-02-2023 16:30,27730,fes,ERROR,30,"TwoFactorFailed: user=charlie,session=SID1160,ip=10.0.0.14,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 16:30,27730,fes,INFO,1,Heartbeat: keepalive session=SID1914,Normal
+25-02-2023 16:31,27730,fes,INFO,5,Heartbeat: keepalive session=SID1699,Normal
+25-02-2023 16:31,27730,fes,INFO,3,Heartbeat: keepalive session=SID1815,Normal
+25-02-2023 16:32,27730,fes,INFO,7,SessionRefresh: session=SID1591 ok,Normal
+25-02-2023 16:32,27730,fes,INFO,1,Cleanup: closed session=SID1788,Normal
+25-02-2023 16:32,27730,fes,ERROR,45,"SAMLFailure: user=frank,ip=10.0.0.9,err=SAMLFailureIssue",SAML Error
+25-02-2023 16:33,27730,fes,INFO,3,SessionRefresh: session=SID1294 ok,Normal
+25-02-2023 16:33,27730,fes,ERROR,71,"TwoFactorFailed: user=bob,session=SID1072,ip=10.0.0.49,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 16:33,27730,fes,ERROR,21,"TwoFactorFailed: user=dan,session=SID1074,ip=10.0.0.31,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 16:33,27730,fes,INFO,5,Heartbeat: keepalive session=SID1110,Normal
+25-02-2023 16:34,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:34,27730,fes,ERROR,92,"CertificateError: user=bob,ip=10.0.0.14,err=CertificateErrorIssue",Certificate Error
+25-02-2023 16:34,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 16:35,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:35,27730,fes,ERROR,53,"TwoFactorFailed: user=alice,session=SID1256,ip=10.0.0.10,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 16:35,27730,fes,ERROR,99,"ConnectionFailed: user=frank,session=SID1250,ip=10.0.0.24,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 16:36,27730,fes,ERROR,54,"ConnectionFailed: user=dan,session=SID1950,ip=10.0.0.3,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 16:36,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 16:36,27730,fes,ERROR,61,"AuthenticationFailed: user=charlie,session=SID1219,ip=10.0.0.42,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 16:36,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 16:37,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 16:37,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:38,27730,fes,ERROR,70,"AuthenticationFailed: user=dan,session=SID1265,ip=10.0.0.32,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 16:38,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:39,27730,fes,ERROR,33,"CertificateError: user=frank,ip=10.0.0.12,err=CertificateErrorIssue",Certificate Error
+25-02-2023 16:39,27730,fes,INFO,2,SessionRefresh: session=SID1391 ok,Normal
+25-02-2023 16:39,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:39,27730,fes,INFO,3,SessionRefresh: session=SID1238 ok,Normal
+25-02-2023 16:40,27730,fes,INFO,7,Heartbeat: keepalive session=SID1613,Normal
+25-02-2023 16:40,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 16:40,27730,fes,INFO,9,SessionRefresh: session=SID1483 ok,Normal
+25-02-2023 16:40,27730,fes,INFO,3,Cleanup: closed session=SID1193,Normal
+25-02-2023 16:41,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 16:42,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:42,27730,fes,INFO,9,Heartbeat: keepalive session=SID1259,Normal
+25-02-2023 16:42,27730,fes,INFO,10,Cleanup: closed session=SID1456,Normal
+25-02-2023 16:43,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 16:43,27730,fes,ERROR,22,"TwoFactorFailed: user=frank,session=SID1013,ip=10.0.0.5,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 16:43,27730,fes,ERROR,92,"CertificateError: user=dan,ip=10.0.0.4,err=CertificateErrorIssue",Certificate Error
+25-02-2023 16:43,27730,fes,INFO,5,Heartbeat: keepalive session=SID1089,Normal
+25-02-2023 16:44,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 16:44,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 16:45,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 16:45,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 16:45,27730,fes,ERROR,47,"EPSComplianceFailed: user=bob,ip=10.0.0.47,err=AVNotRunning",EPS Failure
+25-02-2023 16:46,27730,fes,INFO,6,Cleanup: closed session=SID1614,Normal
+25-02-2023 16:46,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 16:46,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 16:46,27730,fes,INFO,5,Cleanup: closed session=SID1224,Normal
+25-02-2023 16:47,27730,fes,INFO,5,Heartbeat: keepalive session=SID1881,Normal
+25-02-2023 16:47,27730,fes,INFO,3,SessionRefresh: session=SID1637 ok,Normal
+25-02-2023 16:47,27730,fes,INFO,1,Heartbeat: keepalive session=SID1173,Normal
+25-02-2023 16:48,27730,fes,INFO,10,Cleanup: closed session=SID1035,Normal
+25-02-2023 16:48,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:48,27730,fes,INFO,9,Cleanup: closed session=SID1508,Normal
+25-02-2023 16:49,27730,fes,ERROR,34,"UserAccountExpired: user=frank,session=SID1816,ip=10.0.0.47,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 16:49,27730,fes,INFO,5,Cleanup: closed session=SID1561,Normal
+25-02-2023 16:50,27730,fes,INFO,4,Heartbeat: keepalive session=SID1272,Normal
+25-02-2023 16:49,27730,fes,ERROR,86,"TokenExpired: user=alice,session=SID1886,ip=10.0.0.25,err=TokenExpiredIssue",Token Expired
+25-02-2023 16:50,27730,fes,INFO,6,Heartbeat: keepalive session=SID1880,Normal
+25-02-2023 16:50,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:50,27730,fes,INFO,10,Heartbeat: keepalive session=SID1076,Normal
+25-02-2023 16:51,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:51,27730,fes,INFO,9,Heartbeat: keepalive session=SID1947,Normal
+25-02-2023 16:52,27730,fes,INFO,10,SessionRefresh: session=SID1206 ok,Normal
+25-02-2023 16:52,27730,fes,INFO,6,SessionRefresh: session=SID1855 ok,Normal
+25-02-2023 16:52,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:53,27730,fes,ERROR,39,"LicenseExpired: user=bob,session=SID1974,ip=10.0.0.43,err=LicenseExpiredIssue",License Error
+25-02-2023 16:53,27730,fes,INFO,4,Heartbeat: keepalive session=SID1300,Normal
+25-02-2023 16:53,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 16:54,27730,fes,ERROR,69,"ConnectionFailed: user=frank,session=SID1742,ip=10.0.0.36,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 16:54,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 16:54,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 16:55,27730,fes,INFO,4,Heartbeat: keepalive session=SID1161,Normal
+25-02-2023 16:55,27730,fes,ERROR,20,"ConnectionFailed: user=dan,session=SID1518,ip=10.0.0.15,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 16:56,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:56,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 16:56,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:56,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 16:57,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:57,27730,fes,INFO,7,Heartbeat: keepalive session=SID1995,Normal
+25-02-2023 16:57,27730,fes,ERROR,43,"UserAccountExpired: user=frank,session=SID1202,ip=10.0.0.48,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 16:58,27730,fes,INFO,10,Heartbeat: keepalive session=SID1078,Normal
+25-02-2023 16:58,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 16:59,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 16:58,27730,fes,INFO,5,SessionRefresh: session=SID1986 ok,Normal
+25-02-2023 16:59,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 16:59,27730,fes,ERROR,89,"TokenExpired: user=alice,session=SID1050,ip=10.0.0.6,err=TokenExpiredIssue",Token Expired
+25-02-2023 16:59,27730,fes,INFO,10,Heartbeat: keepalive session=SID1768,Normal
+25-02-2023 17:00,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:00,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:01,27730,fes,ERROR,68,"AuthenticationFailed: user=bob,session=SID1899,ip=10.0.0.34,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 17:01,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 17:01,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:02,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 17:02,27730,fes,INFO,6,Heartbeat: keepalive session=SID1641,Normal
+25-02-2023 17:03,27730,fes,ERROR,92,"SAMLFailure: user=alice,ip=10.0.0.15,err=SAMLFailureIssue",SAML Error
+25-02-2023 17:03,27730,fes,INFO,8,Cleanup: closed session=SID1166,Normal
+25-02-2023 17:03,27730,fes,INFO,7,SessionRefresh: session=SID1008 ok,Normal
+25-02-2023 17:03,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 17:03,27730,fes,INFO,8,SessionRefresh: session=SID1564 ok,Normal
+25-02-2023 17:04,27730,fes,ERROR,29,"TwoFactorFailed: user=erin,session=SID1146,ip=10.0.0.39,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 17:04,27730,fes,INFO,4,Heartbeat: keepalive session=SID1449,Normal
+25-02-2023 17:05,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 17:05,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 17:05,27730,fes,ERROR,62,"AuthenticationFailed: user=frank,session=SID1784,ip=10.0.0.11,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 17:06,27730,fes,ERROR,93,"ProxyConnectionFailed: user=frank,session=SID1314,ip=10.0.0.49,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 17:06,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 17:06,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 17:07,27730,fes,INFO,2,Heartbeat: keepalive session=SID1031,Normal
+25-02-2023 17:07,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 17:07,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 17:08,27730,fes,INFO,10,Heartbeat: keepalive session=SID1966,Normal
+25-02-2023 17:08,27730,fes,INFO,3,Heartbeat: keepalive session=SID1692,Normal
+25-02-2023 17:09,27730,fes,INFO,4,Cleanup: closed session=SID1775,Normal
+25-02-2023 17:08,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:09,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 17:09,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 17:09,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:10,27730,fes,INFO,8,SessionRefresh: session=SID1699 ok,Normal
+25-02-2023 17:11,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 17:11,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 17:11,27730,fes,INFO,9,Heartbeat: keepalive session=SID1001,Normal
+25-02-2023 17:11,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 17:12,27730,fes,INFO,7,Cleanup: closed session=SID1372,Normal
+25-02-2023 17:12,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:13,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 17:13,27730,fes,INFO,3,SessionRefresh: session=SID1506 ok,Normal
+25-02-2023 17:13,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:13,27730,fes,INFO,9,Heartbeat: keepalive session=SID1362,Normal
+25-02-2023 17:14,27730,fes,INFO,3,Heartbeat: keepalive session=SID1137,Normal
+25-02-2023 17:14,27730,fes,INFO,5,Cleanup: closed session=SID1836,Normal
+25-02-2023 17:14,27730,fes,INFO,2,Heartbeat: keepalive session=SID1887,Normal
+25-02-2023 17:15,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:15,27730,fes,INFO,7,Cleanup: closed session=SID1850,Normal
+25-02-2023 17:15,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 17:16,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 17:16,27730,fes,INFO,7,SessionRefresh: session=SID1835 ok,Normal
+25-02-2023 17:16,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 17:17,27730,fes,ERROR,62,"ProxyConnectionFailed: user=bob,session=SID1530,ip=10.0.0.8,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 17:17,27730,fes,ERROR,26,"UserAccountExpired: user=bob,session=SID1455,ip=10.0.0.49,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 17:18,27730,fes,INFO,1,SessionRefresh: session=SID1279 ok,Normal
+25-02-2023 17:17,27730,fes,INFO,4,SessionRefresh: session=SID1138 ok,Normal
+25-02-2023 17:18,27730,fes,INFO,5,Heartbeat: keepalive session=SID1207,Normal
+25-02-2023 17:18,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 17:19,27730,fes,INFO,7,Cleanup: closed session=SID1063,Normal
+25-02-2023 17:19,27730,fes,ERROR,77,"TwoFactorFailed: user=erin,session=SID1490,ip=10.0.0.35,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 17:19,27730,fes,INFO,2,Cleanup: closed session=SID1000,Normal
+25-02-2023 17:20,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:20,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 17:20,27730,fes,ERROR,89,"ProxyConnectionFailed: user=erin,session=SID1917,ip=10.0.0.48,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 17:21,27730,fes,INFO,2,SessionRefresh: session=SID1447 ok,Normal
+25-02-2023 17:21,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 17:21,27730,fes,ERROR,28,"EPSComplianceFailed: user=alice,ip=10.0.0.29,err=AVNotRunning",EPS Failure
+25-02-2023 17:21,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:22,27730,fes,INFO,9,Cleanup: closed session=SID1238,Normal
+25-02-2023 17:22,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 17:23,27730,fes,INFO,8,Heartbeat: keepalive session=SID1520,Normal
+25-02-2023 17:23,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:23,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 17:24,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 17:24,27730,fes,ERROR,71,"LicenseExpired: user=charlie,session=SID1709,ip=10.0.0.45,err=LicenseExpiredIssue",License Error
+25-02-2023 17:25,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:24,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 17:25,27730,fes,INFO,1,SessionRefresh: session=SID1642 ok,Normal
+25-02-2023 17:25,27730,fes,INFO,3,Cleanup: closed session=SID1540,Normal
+25-02-2023 17:26,27730,fes,ERROR,52,"ConnectionFailed: user=alice,session=SID1625,ip=10.0.0.39,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 17:26,27730,fes,INFO,4,Cleanup: closed session=SID1714,Normal
+25-02-2023 17:26,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 17:26,27730,fes,INFO,1,Heartbeat: keepalive session=SID1018,Normal
+25-02-2023 17:27,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:27,27730,fes,ERROR,67,"ProxyConnectionFailed: user=erin,session=SID1115,ip=10.0.0.35,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 17:28,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 17:28,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 17:28,27730,fes,INFO,3,SessionRefresh: session=SID1808 ok,Normal
+25-02-2023 17:29,27730,fes,ERROR,47,"TokenExpired: user=bob,session=SID1411,ip=10.0.0.8,err=TokenExpiredIssue",Token Expired
+25-02-2023 17:29,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 17:30,27730,fes,INFO,4,SessionRefresh: session=SID1952 ok,Normal
+25-02-2023 17:29,27730,fes,INFO,4,Cleanup: closed session=SID1162,Normal
+25-02-2023 17:30,27730,fes,INFO,4,Heartbeat: keepalive session=SID1662,Normal
+25-02-2023 17:30,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:30,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 17:31,27730,fes,INFO,2,Heartbeat: keepalive session=SID1197,Normal
+25-02-2023 17:32,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:32,27730,fes,INFO,5,Cleanup: closed session=SID1151,Normal
+25-02-2023 17:32,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 17:33,27730,fes,INFO,6,Cleanup: closed session=SID1501,Normal
+25-02-2023 17:33,27730,fes,ERROR,54,"AuthenticationFailed: user=charlie,session=SID1895,ip=10.0.0.31,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 17:33,27730,fes,INFO,5,SessionRefresh: session=SID1550 ok,Normal
+25-02-2023 17:33,27730,fes,INFO,6,SessionRefresh: session=SID1290 ok,Normal
+25-02-2023 17:34,27730,fes,INFO,1,Heartbeat: keepalive session=SID1522,Normal
+25-02-2023 17:34,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:34,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:34,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 17:35,27730,fes,ERROR,75,"UserAccountExpired: user=erin,session=SID1599,ip=10.0.0.21,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 17:36,27730,fes,ERROR,58,"EPSComplianceFailed: user=alice,ip=10.0.0.48,err=AVNotRunning",EPS Failure
+25-02-2023 17:35,27730,fes,INFO,2,SessionRefresh: session=SID1431 ok,Normal
+25-02-2023 17:36,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 17:36,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 17:37,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:37,27730,fes,INFO,4,Heartbeat: keepalive session=SID1362,Normal
+25-02-2023 17:37,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 17:38,27730,fes,ERROR,55,"LicenseExpired: user=dan,session=SID1512,ip=10.0.0.42,err=LicenseExpiredIssue",License Error
+25-02-2023 17:38,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 17:38,27730,fes,WARN,87,"HighLatency: session=SID1019,latency=3042ms",Performance Warning
+25-02-2023 17:39,27730,fes,ERROR,24,"EPSComplianceFailed: user=alice,ip=10.0.0.16,err=AVNotRunning",EPS Failure
+25-02-2023 17:39,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 17:39,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 17:40,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 17:40,27730,fes,ERROR,54,"LicenseExpired: user=alice,session=SID1342,ip=10.0.0.5,err=LicenseExpiredIssue",License Error
+25-02-2023 17:40,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 17:40,27730,fes,INFO,10,Heartbeat: keepalive session=SID1592,Normal
+25-02-2023 17:41,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 17:42,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 17:41,27730,fes,INFO,8,Cleanup: closed session=SID1549,Normal
+25-02-2023 17:42,27730,fes,ERROR,71,"TokenExpired: user=erin,session=SID1411,ip=10.0.0.17,err=TokenExpiredIssue",Token Expired
+25-02-2023 17:42,27730,fes,INFO,6,Heartbeat: keepalive session=SID1804,Normal
+25-02-2023 17:42,27730,fes,INFO,7,Heartbeat: keepalive session=SID1042,Normal
+25-02-2023 17:43,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 17:43,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 17:44,27730,fes,ERROR,82,"TwoFactorFailed: user=alice,session=SID1559,ip=10.0.0.33,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 17:44,27730,fes,INFO,6,Cleanup: closed session=SID1521,Normal
+25-02-2023 17:44,27730,fes,INFO,7,SessionRefresh: session=SID1405 ok,Normal
+25-02-2023 17:45,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 17:45,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:45,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 17:46,27730,fes,INFO,3,SessionRefresh: session=SID1917 ok,Normal
+25-02-2023 17:46,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 17:46,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 17:46,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 17:47,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 17:47,27730,fes,INFO,1,SessionRefresh: session=SID1879 ok,Normal
+25-02-2023 17:48,27730,fes,INFO,6,Heartbeat: keepalive session=SID1378,Normal
+25-02-2023 17:48,27730,fes,INFO,3,Heartbeat: keepalive session=SID1563,Normal
+25-02-2023 17:48,27730,fes,INFO,3,Cleanup: closed session=SID1891,Normal
+25-02-2023 17:49,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 17:49,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 17:49,27730,fes,INFO,5,SessionRefresh: session=SID1895 ok,Normal
+25-02-2023 17:50,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 17:50,27730,fes,INFO,6,Heartbeat: keepalive session=SID1009,Normal
+25-02-2023 17:50,27730,fes,INFO,8,Cleanup: closed session=SID1225,Normal
+25-02-2023 17:51,27730,fes,INFO,6,Cleanup: closed session=SID1826,Normal
+25-02-2023 17:51,27730,fes,INFO,10,SessionRefresh: session=SID1786 ok,Normal
+25-02-2023 17:51,27730,fes,INFO,2,Cleanup: closed session=SID1537,Normal
+25-02-2023 17:52,27730,fes,INFO,3,Cleanup: closed session=SID1594,Normal
+25-02-2023 17:52,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 17:52,27730,fes,INFO,7,Heartbeat: keepalive session=SID1303,Normal
+25-02-2023 17:53,27730,fes,INFO,8,Heartbeat: keepalive session=SID1936,Normal
+25-02-2023 17:53,27730,fes,INFO,3,Cleanup: closed session=SID1010,Normal
+25-02-2023 17:53,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 17:53,27730,fes,INFO,2,Heartbeat: keepalive session=SID1151,Normal
+25-02-2023 17:54,27730,fes,INFO,10,Heartbeat: keepalive session=SID1298,Normal
+25-02-2023 17:55,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 17:55,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 17:55,27730,fes,INFO,10,Heartbeat: keepalive session=SID1696,Normal
+25-02-2023 17:55,27730,fes,INFO,4,Heartbeat: keepalive session=SID1707,Normal
+25-02-2023 17:56,27730,fes,ERROR,21,"TokenExpired: user=charlie,session=SID1165,ip=10.0.0.23,err=TokenExpiredIssue",Token Expired
+25-02-2023 17:56,27730,fes,WARN,44,"HighLatency: session=SID1584,latency=5393ms",Performance Warning
+25-02-2023 17:56,27730,fes,ERROR,42,"SAMLFailure: user=bob,ip=10.0.0.5,err=SAMLFailureIssue",SAML Error
+25-02-2023 17:57,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 17:57,27730,fes,INFO,2,SessionRefresh: session=SID1056 ok,Normal
+25-02-2023 17:57,27730,fes,INFO,10,SessionRefresh: session=SID1260 ok,Normal
+25-02-2023 17:58,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 17:58,27730,fes,ERROR,55,"UserAccountExpired: user=dan,session=SID1425,ip=10.0.0.13,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 17:59,27730,fes,INFO,2,Heartbeat: keepalive session=SID1145,Normal
+25-02-2023 17:59,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 17:59,27730,fes,INFO,8,Cleanup: closed session=SID1591,Normal
+25-02-2023 18:00,27730,fes,ERROR,83,"TokenExpired: user=charlie,session=SID1567,ip=10.0.0.27,err=TokenExpiredIssue",Token Expired
+25-02-2023 17:59,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 18:00,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 18:01,27730,fes,INFO,2,Heartbeat: keepalive session=SID1052,Normal
+25-02-2023 18:01,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 18:01,27730,fes,INFO,1,SessionRefresh: session=SID1259 ok,Normal
+25-02-2023 18:01,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:02,27730,fes,INFO,4,SessionRefresh: session=SID1002 ok,Normal
+25-02-2023 18:02,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 18:02,27730,fes,ERROR,47,"AuthenticationFailed: user=frank,session=SID1876,ip=10.0.0.19,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 18:03,27730,fes,ERROR,93,"CertificateError: user=dan,ip=10.0.0.41,err=CertificateErrorIssue",Certificate Error
+25-02-2023 18:03,27730,fes,INFO,8,Heartbeat: keepalive session=SID1599,Normal
+25-02-2023 18:03,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 18:03,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 18:04,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 18:04,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 18:04,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 18:05,27730,fes,ERROR,99,"ConnectionFailed: user=dan,session=SID1829,ip=10.0.0.39,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 18:05,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 18:05,27730,fes,INFO,7,Heartbeat: keepalive session=SID1745,Normal
+25-02-2023 18:06,27730,fes,INFO,2,Cleanup: closed session=SID1705,Normal
+25-02-2023 18:06,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:07,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:07,27730,fes,INFO,7,Heartbeat: keepalive session=SID1329,Normal
+25-02-2023 18:07,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:07,27730,fes,WARN,47,"HighLatency: session=SID1969,latency=7689ms",Performance Warning
+25-02-2023 18:08,27730,fes,INFO,5,Heartbeat: keepalive session=SID1690,Normal
+25-02-2023 18:08,27730,fes,INFO,10,Cleanup: closed session=SID1754,Normal
+25-02-2023 18:08,27730,fes,ERROR,90,"CertificateError: user=frank,ip=10.0.0.2,err=CertificateErrorIssue",Certificate Error
+25-02-2023 18:09,27730,fes,INFO,2,Cleanup: closed session=SID1431,Normal
+25-02-2023 18:09,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 18:10,27730,fes,INFO,2,Heartbeat: keepalive session=SID1092,Normal
+25-02-2023 18:10,27730,fes,INFO,3,SessionRefresh: session=SID1533 ok,Normal
+25-02-2023 18:11,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 18:11,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:11,27730,fes,ERROR,94,"TokenExpired: user=alice,session=SID1688,ip=10.0.0.37,err=TokenExpiredIssue",Token Expired
+25-02-2023 18:11,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 18:12,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 18:12,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:12,27730,fes,ERROR,20,"AuthenticationFailed: user=frank,session=SID1033,ip=10.0.0.21,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 18:12,27730,fes,INFO,5,Cleanup: closed session=SID1602,Normal
+25-02-2023 18:13,27730,fes,INFO,2,SessionRefresh: session=SID1490 ok,Normal
+25-02-2023 18:13,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 18:14,27730,fes,INFO,1,Cleanup: closed session=SID1682,Normal
+25-02-2023 18:14,27730,fes,INFO,2,SessionRefresh: session=SID1952 ok,Normal
+25-02-2023 18:14,27730,fes,INFO,5,Heartbeat: keepalive session=SID1213,Normal
+25-02-2023 18:14,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 18:15,27730,fes,INFO,2,SessionRefresh: session=SID1711 ok,Normal
+25-02-2023 18:15,27730,fes,INFO,10,SessionRefresh: session=SID1046 ok,Normal
+25-02-2023 18:15,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 18:16,27730,fes,INFO,10,Cleanup: closed session=SID1293,Normal
+25-02-2023 18:16,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:17,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 18:17,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 18:17,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 18:18,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 18:18,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 18:19,27730,fes,INFO,4,SessionRefresh: session=SID1325 ok,Normal
+25-02-2023 18:19,27730,fes,INFO,1,SessionRefresh: session=SID1219 ok,Normal
+25-02-2023 18:19,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 18:20,27730,fes,INFO,9,Heartbeat: keepalive session=SID1250,Normal
+25-02-2023 18:20,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 18:20,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 18:20,27730,fes,ERROR,77,"UserAccountExpired: user=alice,session=SID1276,ip=10.0.0.33,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 18:21,27730,fes,INFO,4,Cleanup: closed session=SID1482,Normal
+25-02-2023 18:21,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 18:21,27730,fes,INFO,9,Heartbeat: keepalive session=SID1264,Normal
+25-02-2023 18:21,27730,fes,INFO,3,SessionRefresh: session=SID1665 ok,Normal
+25-02-2023 18:22,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:22,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:22,27730,fes,ERROR,22,"EPSComplianceFailed: user=dan,ip=10.0.0.30,err=AVNotRunning",EPS Failure
+25-02-2023 18:23,27730,fes,INFO,7,Heartbeat: keepalive session=SID1859,Normal
+25-02-2023 18:24,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 18:24,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:24,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:25,27730,fes,ERROR,23,"TwoFactorFailed: user=alice,session=SID1513,ip=10.0.0.33,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 18:25,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 18:25,27730,fes,ERROR,38,"LicenseExpired: user=frank,session=SID1901,ip=10.0.0.32,err=LicenseExpiredIssue",License Error
+25-02-2023 18:25,27730,fes,ERROR,88,"UserAccountExpired: user=charlie,session=SID1859,ip=10.0.0.46,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 18:26,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 18:26,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 18:26,27730,fes,ERROR,73,"TokenExpired: user=frank,session=SID1390,ip=10.0.0.18,err=TokenExpiredIssue",Token Expired
+25-02-2023 18:26,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 18:27,27730,fes,ERROR,78,"EPSComplianceFailed: user=charlie,ip=10.0.0.26,err=AVNotRunning",EPS Failure
+25-02-2023 18:28,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 18:27,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 18:28,27730,fes,ERROR,89,"ProxyConnectionFailed: user=dan,session=SID1601,ip=10.0.0.4,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 18:29,27730,fes,INFO,6,Cleanup: closed session=SID1465,Normal
+25-02-2023 18:28,27730,fes,INFO,5,Cleanup: closed session=SID1175,Normal
+25-02-2023 18:29,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 18:29,27730,fes,INFO,1,SessionRefresh: session=SID1550 ok,Normal
+25-02-2023 18:30,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 18:30,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 18:30,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 18:31,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:31,27730,fes,INFO,2,Cleanup: closed session=SID1603,Normal
+25-02-2023 18:31,27730,fes,ERROR,41,"AuthenticationFailed: user=bob,session=SID1527,ip=10.0.0.9,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 18:32,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 18:32,27730,fes,INFO,5,Cleanup: closed session=SID1424,Normal
+25-02-2023 18:32,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:33,27730,fes,ERROR,79,"ConnectionFailed: user=dan,session=SID1913,ip=10.0.0.39,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 18:33,27730,fes,INFO,4,SessionRefresh: session=SID1067 ok,Normal
+25-02-2023 18:33,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 18:33,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 18:34,27730,fes,INFO,1,Cleanup: closed session=SID1532,Normal
+25-02-2023 18:34,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 18:35,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 18:35,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 18:35,27730,fes,ERROR,81,"EPSComplianceFailed: user=charlie,ip=10.0.0.31,err=AVNotRunning",EPS Failure
+25-02-2023 18:36,27730,fes,ERROR,33,"AuthenticationFailed: user=bob,session=SID1379,ip=10.0.0.14,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 18:36,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:36,27730,fes,INFO,8,SessionRefresh: session=SID1643 ok,Normal
+25-02-2023 18:36,27730,fes,ERROR,93,"ConnectionFailed: user=charlie,session=SID1456,ip=10.0.0.18,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 18:37,27730,fes,ERROR,96,"ConnectionFailed: user=charlie,session=SID1399,ip=10.0.0.46,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 18:37,27730,fes,INFO,6,Cleanup: closed session=SID1920,Normal
+25-02-2023 18:38,27730,fes,INFO,5,Heartbeat: keepalive session=SID1441,Normal
+25-02-2023 18:38,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 18:38,27730,fes,INFO,2,Heartbeat: keepalive session=SID1751,Normal
+25-02-2023 18:39,27730,fes,INFO,4,Heartbeat: keepalive session=SID1450,Normal
+25-02-2023 18:39,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:39,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 18:39,27730,fes,INFO,10,SessionRefresh: session=SID1180 ok,Normal
+25-02-2023 18:40,27730,fes,INFO,6,Heartbeat: keepalive session=SID1868,Normal
+25-02-2023 18:40,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 18:41,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 18:41,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 18:41,27730,fes,INFO,10,Cleanup: closed session=SID1871,Normal
+25-02-2023 18:42,27730,fes,INFO,10,SessionRefresh: session=SID1228 ok,Normal
+25-02-2023 18:42,27730,fes,ERROR,61,"LicenseExpired: user=alice,session=SID1949,ip=10.0.0.39,err=LicenseExpiredIssue",License Error
+25-02-2023 18:42,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 18:43,27730,fes,INFO,10,Cleanup: closed session=SID1498,Normal
+25-02-2023 18:43,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 18:43,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 18:44,27730,fes,INFO,3,Heartbeat: keepalive session=SID1712,Normal
+25-02-2023 18:44,27730,fes,INFO,5,Cleanup: closed session=SID1719,Normal
+25-02-2023 18:45,27730,fes,ERROR,40,"AuthenticationFailed: user=alice,session=SID1903,ip=10.0.0.14,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 18:45,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 18:45,27730,fes,INFO,2,Cleanup: closed session=SID1314,Normal
+25-02-2023 18:45,27730,fes,ERROR,64,"TwoFactorFailed: user=dan,session=SID1967,ip=10.0.0.32,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 18:46,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 18:46,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 18:46,27730,fes,INFO,3,SessionRefresh: session=SID1145 ok,Normal
+25-02-2023 18:47,27730,fes,INFO,3,Cleanup: closed session=SID1312,Normal
+25-02-2023 18:47,27730,fes,INFO,6,Cleanup: closed session=SID1118,Normal
+25-02-2023 18:47,27730,fes,ERROR,77,"UserAccountExpired: user=alice,session=SID1503,ip=10.0.0.19,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 18:47,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:48,27730,fes,INFO,2,Heartbeat: keepalive session=SID1892,Normal
+25-02-2023 18:48,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:49,27730,fes,ERROR,89,"ProxyConnectionFailed: user=charlie,session=SID1513,ip=10.0.0.28,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 18:49,27730,fes,INFO,5,SessionRefresh: session=SID1016 ok,Normal
+25-02-2023 18:50,27730,fes,INFO,7,SessionRefresh: session=SID1462 ok,Normal
+25-02-2023 18:50,27730,fes,INFO,1,Heartbeat: keepalive session=SID1027,Normal
+25-02-2023 18:50,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 18:50,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 18:51,27730,fes,INFO,8,Cleanup: closed session=SID1217,Normal
+25-02-2023 18:51,27730,fes,INFO,10,Heartbeat: keepalive session=SID1697,Normal
+25-02-2023 18:51,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 18:52,27730,fes,INFO,6,Cleanup: closed session=SID1717,Normal
+25-02-2023 18:52,27730,fes,INFO,1,Cleanup: closed session=SID1022,Normal
+25-02-2023 18:52,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 18:53,27730,fes,ERROR,33,"UserAccountExpired: user=dan,session=SID1689,ip=10.0.0.19,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 18:53,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 18:54,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:53,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 18:54,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 18:55,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 18:55,27730,fes,INFO,6,Heartbeat: keepalive session=SID1575,Normal
+25-02-2023 18:55,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 18:55,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 18:55,27730,fes,INFO,10,SessionRefresh: session=SID1819 ok,Normal
+25-02-2023 18:56,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 18:56,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 18:56,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 18:57,27730,fes,WARN,62,"HighLatency: session=SID1057,latency=7420ms",Performance Warning
+25-02-2023 18:57,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 18:58,27730,fes,INFO,5,Cleanup: closed session=SID1889,Normal
+25-02-2023 18:58,27730,fes,ERROR,52,"EPSComplianceFailed: user=alice,ip=10.0.0.8,err=AVNotRunning",EPS Failure
+25-02-2023 18:58,27730,fes,ERROR,89,"AuthenticationFailed: user=alice,session=SID1444,ip=10.0.0.4,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 18:58,27730,fes,INFO,4,SessionRefresh: session=SID1763 ok,Normal
+25-02-2023 18:59,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 18:59,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:00,27730,fes,INFO,8,SessionRefresh: session=SID1296 ok,Normal
+25-02-2023 19:00,27730,fes,INFO,3,SessionRefresh: session=SID1327 ok,Normal
+25-02-2023 19:00,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 19:01,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 19:01,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 19:01,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 19:02,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 19:02,27730,fes,INFO,1,Cleanup: closed session=SID1488,Normal
+25-02-2023 19:02,27730,fes,INFO,9,SessionRefresh: session=SID1591 ok,Normal
+25-02-2023 19:02,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 19:03,27730,fes,INFO,3,SessionRefresh: session=SID1323 ok,Normal
+25-02-2023 19:03,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 19:03,27730,fes,ERROR,70,"LicenseExpired: user=frank,session=SID1051,ip=10.0.0.24,err=LicenseExpiredIssue",License Error
+25-02-2023 19:04,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 19:05,27730,fes,INFO,4,Cleanup: closed session=SID1639,Normal
+25-02-2023 19:05,27730,fes,ERROR,94,"TwoFactorFailed: user=frank,session=SID1234,ip=10.0.0.20,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 19:05,27730,fes,ERROR,96,"ProxyConnectionFailed: user=frank,session=SID1862,ip=10.0.0.29,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 19:05,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 19:06,27730,fes,ERROR,41,"EPSComplianceFailed: user=alice,ip=10.0.0.11,err=AVNotRunning",EPS Failure
+25-02-2023 19:06,27730,fes,ERROR,90,"SAMLFailure: user=frank,ip=10.0.0.28,err=SAMLFailureIssue",SAML Error
+25-02-2023 19:06,27730,fes,INFO,1,SessionRefresh: session=SID1334 ok,Normal
+25-02-2023 19:07,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 19:07,27730,fes,INFO,3,Heartbeat: keepalive session=SID1765,Normal
+25-02-2023 19:08,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 19:07,27730,fes,INFO,4,Cleanup: closed session=SID1452,Normal
+25-02-2023 19:08,27730,fes,INFO,6,Heartbeat: keepalive session=SID1070,Normal
+25-02-2023 19:08,27730,fes,ERROR,43,"ProxyConnectionFailed: user=alice,session=SID1184,ip=10.0.0.38,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 19:08,27730,fes,INFO,10,Cleanup: closed session=SID1941,Normal
+25-02-2023 19:09,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:10,27730,fes,INFO,3,Heartbeat: keepalive session=SID1057,Normal
+25-02-2023 19:10,27730,fes,ERROR,59,"SAMLFailure: user=bob,ip=10.0.0.33,err=SAMLFailureIssue",SAML Error
+25-02-2023 19:10,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 19:10,27730,fes,INFO,2,Heartbeat: keepalive session=SID1661,Normal
+25-02-2023 19:11,27730,fes,ERROR,60,"UserAccountExpired: user=dan,session=SID1319,ip=10.0.0.1,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 19:11,27730,fes,INFO,4,Heartbeat: keepalive session=SID1729,Normal
+25-02-2023 19:11,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:12,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 19:12,27730,fes,INFO,5,Cleanup: closed session=SID1786,Normal
+25-02-2023 19:13,27730,fes,INFO,4,SessionRefresh: session=SID1935 ok,Normal
+25-02-2023 19:12,27730,fes,INFO,5,Heartbeat: keepalive session=SID1169,Normal
+25-02-2023 19:13,27730,fes,INFO,10,Heartbeat: keepalive session=SID1809,Normal
+25-02-2023 19:14,27730,fes,ERROR,96,"EPSComplianceFailed: user=alice,ip=10.0.0.21,err=AVNotRunning",EPS Failure
+25-02-2023 19:14,27730,fes,INFO,5,Heartbeat: keepalive session=SID1267,Normal
+25-02-2023 19:14,27730,fes,ERROR,22,"SAMLFailure: user=frank,ip=10.0.0.48,err=SAMLFailureIssue",SAML Error
+25-02-2023 19:15,27730,fes,INFO,1,SessionRefresh: session=SID1251 ok,Normal
+25-02-2023 19:14,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 19:15,27730,fes,ERROR,57,"SAMLFailure: user=charlie,ip=10.0.0.43,err=SAMLFailureIssue",SAML Error
+25-02-2023 19:16,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 19:16,27730,fes,INFO,4,SessionRefresh: session=SID1276 ok,Normal
+25-02-2023 19:16,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:16,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 19:16,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 19:17,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 19:17,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 19:18,27730,fes,ERROR,41,"EPSComplianceFailed: user=erin,ip=10.0.0.9,err=AVNotRunning",EPS Failure
+25-02-2023 19:18,27730,fes,INFO,6,Cleanup: closed session=SID1387,Normal
+25-02-2023 19:18,27730,fes,INFO,7,Cleanup: closed session=SID1453,Normal
+25-02-2023 19:19,27730,fes,INFO,4,Heartbeat: keepalive session=SID1285,Normal
+25-02-2023 19:19,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 19:20,27730,fes,INFO,10,Cleanup: closed session=SID1291,Normal
+25-02-2023 19:20,27730,fes,INFO,2,SessionRefresh: session=SID1391 ok,Normal
+25-02-2023 19:20,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:20,27730,fes,INFO,7,Heartbeat: keepalive session=SID1117,Normal
+25-02-2023 19:21,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 19:21,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:21,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:22,27730,fes,ERROR,41,"ConnectionFailed: user=charlie,session=SID1215,ip=10.0.0.31,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 19:22,27730,fes,ERROR,70,"TokenExpired: user=dan,session=SID1050,ip=10.0.0.37,err=TokenExpiredIssue",Token Expired
+25-02-2023 19:22,27730,fes,INFO,9,Cleanup: closed session=SID1286,Normal
+25-02-2023 19:23,27730,fes,INFO,4,SessionRefresh: session=SID1137 ok,Normal
+25-02-2023 19:23,27730,fes,ERROR,82,"TokenExpired: user=frank,session=SID1600,ip=10.0.0.29,err=TokenExpiredIssue",Token Expired
+25-02-2023 19:23,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:24,27730,fes,INFO,6,SessionRefresh: session=SID1789 ok,Normal
+25-02-2023 19:24,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 19:25,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 19:25,27730,fes,ERROR,27,"EPSComplianceFailed: user=charlie,ip=10.0.0.37,err=AVNotRunning",EPS Failure
+25-02-2023 19:25,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 19:25,27730,fes,INFO,9,SessionRefresh: session=SID1676 ok,Normal
+25-02-2023 19:25,27730,fes,INFO,3,SessionRefresh: session=SID1531 ok,Normal
+25-02-2023 19:26,27730,fes,ERROR,83,"SAMLFailure: user=bob,ip=10.0.0.43,err=SAMLFailureIssue",SAML Error
+25-02-2023 19:26,27730,fes,INFO,3,Cleanup: closed session=SID1558,Normal
+25-02-2023 19:26,27730,fes,INFO,6,Cleanup: closed session=SID1297,Normal
+25-02-2023 19:27,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:27,27730,fes,INFO,5,SessionRefresh: session=SID1122 ok,Normal
+25-02-2023 19:28,27730,fes,INFO,3,Cleanup: closed session=SID1654,Normal
+25-02-2023 19:28,27730,fes,ERROR,86,"LicenseExpired: user=frank,session=SID1131,ip=10.0.0.29,err=LicenseExpiredIssue",License Error
+25-02-2023 19:29,27730,fes,INFO,3,Cleanup: closed session=SID1031,Normal
+25-02-2023 19:28,27730,fes,INFO,6,Heartbeat: keepalive session=SID1384,Normal
+25-02-2023 19:29,27730,fes,INFO,4,Cleanup: closed session=SID1178,Normal
+25-02-2023 19:29,27730,fes,ERROR,89,"ProxyConnectionFailed: user=erin,session=SID1143,ip=10.0.0.31,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 19:29,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 19:30,27730,fes,INFO,8,SessionRefresh: session=SID1265 ok,Normal
+25-02-2023 19:31,27730,fes,INFO,2,Heartbeat: keepalive session=SID1194,Normal
+25-02-2023 19:31,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 19:31,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 19:31,27730,fes,ERROR,46,"TwoFactorFailed: user=dan,session=SID1889,ip=10.0.0.1,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 19:31,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 19:32,27730,fes,INFO,7,SessionRefresh: session=SID1010 ok,Normal
+25-02-2023 19:33,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 19:33,27730,fes,INFO,7,Heartbeat: keepalive session=SID1179,Normal
+25-02-2023 19:33,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:34,27730,fes,ERROR,61,"TwoFactorFailed: user=charlie,session=SID1874,ip=10.0.0.4,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 19:34,27730,fes,INFO,8,SessionRefresh: session=SID1216 ok,Normal
+25-02-2023 19:34,27730,fes,ERROR,88,"ProxyConnectionFailed: user=bob,session=SID1990,ip=10.0.0.45,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 19:35,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:35,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 19:35,27730,fes,INFO,4,SessionRefresh: session=SID1849 ok,Normal
+25-02-2023 19:35,27730,fes,INFO,5,SessionRefresh: session=SID1449 ok,Normal
+25-02-2023 19:35,27730,fes,ERROR,37,"ConnectionFailed: user=frank,session=SID1387,ip=10.0.0.3,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 19:36,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:37,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 19:37,27730,fes,INFO,2,Heartbeat: keepalive session=SID1130,Normal
+25-02-2023 19:37,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 19:37,27730,fes,ERROR,67,"TokenExpired: user=alice,session=SID1728,ip=10.0.0.47,err=TokenExpiredIssue",Token Expired
+25-02-2023 19:37,27730,fes,INFO,2,Heartbeat: keepalive session=SID1776,Normal
+25-02-2023 19:38,27730,fes,INFO,7,Cleanup: closed session=SID1047,Normal
+25-02-2023 19:38,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 19:38,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:39,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 19:39,27730,fes,INFO,2,Heartbeat: keepalive session=SID1968,Normal
+25-02-2023 19:40,27730,fes,ERROR,59,"AuthenticationFailed: user=charlie,session=SID1906,ip=10.0.0.21,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 19:40,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 19:40,27730,fes,ERROR,55,"ConnectionFailed: user=alice,session=SID1932,ip=10.0.0.10,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 19:40,27730,fes,INFO,3,SessionRefresh: session=SID1524 ok,Normal
+25-02-2023 19:41,27730,fes,INFO,2,Cleanup: closed session=SID1117,Normal
+25-02-2023 19:41,27730,fes,INFO,9,Heartbeat: keepalive session=SID1308,Normal
+25-02-2023 19:42,27730,fes,INFO,2,Cleanup: closed session=SID1158,Normal
+25-02-2023 19:42,27730,fes,INFO,3,SessionRefresh: session=SID1966 ok,Normal
+25-02-2023 19:42,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 19:43,27730,fes,INFO,3,Heartbeat: keepalive session=SID1925,Normal
+25-02-2023 19:43,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 19:43,27730,fes,ERROR,39,"ConnectionFailed: user=dan,session=SID1382,ip=10.0.0.32,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 19:44,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:44,27730,fes,ERROR,89,"LicenseExpired: user=erin,session=SID1574,ip=10.0.0.4,err=LicenseExpiredIssue",License Error
+25-02-2023 19:44,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:45,27730,fes,ERROR,69,"AuthenticationFailed: user=frank,session=SID1391,ip=10.0.0.17,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 19:45,27730,fes,INFO,7,SessionRefresh: session=SID1748 ok,Normal
+25-02-2023 19:46,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 19:46,27730,fes,INFO,3,Cleanup: closed session=SID1383,Normal
+25-02-2023 19:46,27730,fes,ERROR,49,"TwoFactorFailed: user=frank,session=SID1104,ip=10.0.0.31,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 19:46,27730,fes,INFO,5,Cleanup: closed session=SID1227,Normal
+25-02-2023 19:46,27730,fes,INFO,1,Cleanup: closed session=SID1550,Normal
+25-02-2023 19:47,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:48,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 19:48,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 19:48,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:48,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 19:48,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 19:49,27730,fes,INFO,1,Cleanup: closed session=SID1219,Normal
+25-02-2023 19:49,27730,fes,INFO,10,Cleanup: closed session=SID1276,Normal
+25-02-2023 19:50,27730,fes,INFO,3,Heartbeat: keepalive session=SID1365,Normal
+25-02-2023 19:50,27730,fes,ERROR,76,"CertificateError: user=frank,ip=10.0.0.15,err=CertificateErrorIssue",Certificate Error
+25-02-2023 19:50,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 19:51,27730,fes,INFO,2,SessionRefresh: session=SID1864 ok,Normal
+25-02-2023 19:51,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 19:52,27730,fes,INFO,2,SessionRefresh: session=SID1124 ok,Normal
+25-02-2023 19:52,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 19:52,27730,fes,WARN,46,"HighLatency: session=SID1452,latency=7290ms",Performance Warning
+25-02-2023 19:53,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 19:53,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 19:53,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 19:53,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 19:53,27730,fes,INFO,9,Heartbeat: keepalive session=SID1214,Normal
+25-02-2023 19:54,27730,fes,INFO,7,Cleanup: closed session=SID1998,Normal
+25-02-2023 19:55,27730,fes,INFO,10,SessionRefresh: session=SID1944 ok,Normal
+25-02-2023 19:54,27730,fes,INFO,9,SessionRefresh: session=SID1657 ok,Normal
+25-02-2023 19:55,27730,fes,INFO,1,Heartbeat: keepalive session=SID1636,Normal
+25-02-2023 19:55,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 19:56,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 19:56,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 19:56,27730,fes,ERROR,84,"EPSComplianceFailed: user=dan,ip=10.0.0.10,err=AVNotRunning",EPS Failure
+25-02-2023 19:57,27730,fes,INFO,5,SessionRefresh: session=SID1725 ok,Normal
+25-02-2023 19:57,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 19:58,27730,fes,INFO,5,SessionRefresh: session=SID1818 ok,Normal
+25-02-2023 19:57,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 19:58,27730,fes,ERROR,86,"TwoFactorFailed: user=charlie,session=SID1635,ip=10.0.0.2,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 19:59,27730,fes,INFO,6,Cleanup: closed session=SID1342,Normal
+25-02-2023 19:58,27730,fes,INFO,8,Heartbeat: keepalive session=SID1220,Normal
+25-02-2023 19:59,27730,fes,INFO,4,SessionRefresh: session=SID1512 ok,Normal
+25-02-2023 20:00,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 20:00,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 20:00,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 20:00,27730,fes,INFO,7,Heartbeat: keepalive session=SID1064,Normal
+25-02-2023 20:01,27730,fes,WARN,69,"HighLatency: session=SID1491,latency=3540ms",Performance Warning
+25-02-2023 20:01,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:02,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 20:02,27730,fes,ERROR,79,"UserAccountExpired: user=charlie,session=SID1870,ip=10.0.0.33,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 20:02,27730,fes,INFO,8,Cleanup: closed session=SID1483,Normal
+25-02-2023 20:03,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 20:03,27730,fes,INFO,2,SessionRefresh: session=SID1765 ok,Normal
+25-02-2023 20:03,27730,fes,ERROR,56,"EPSComplianceFailed: user=dan,ip=10.0.0.43,err=AVNotRunning",EPS Failure
+25-02-2023 20:03,27730,fes,WARN,95,"HighLatency: session=SID1386,latency=3602ms",Performance Warning
+25-02-2023 20:04,27730,fes,INFO,4,SessionRefresh: session=SID1795 ok,Normal
+25-02-2023 20:04,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 20:04,27730,fes,INFO,5,SessionRefresh: session=SID1375 ok,Normal
+25-02-2023 20:05,27730,fes,INFO,2,SessionRefresh: session=SID1905 ok,Normal
+25-02-2023 20:05,27730,fes,INFO,8,Heartbeat: keepalive session=SID1758,Normal
+25-02-2023 20:06,27730,fes,INFO,8,SessionRefresh: session=SID1598 ok,Normal
+25-02-2023 20:05,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:06,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 20:07,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 20:07,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 20:07,27730,fes,INFO,4,Cleanup: closed session=SID1892,Normal
+25-02-2023 20:08,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:08,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 20:08,27730,fes,INFO,1,Cleanup: closed session=SID1606,Normal
+25-02-2023 20:08,27730,fes,INFO,4,SessionRefresh: session=SID1163 ok,Normal
+25-02-2023 20:09,27730,fes,ERROR,36,"EPSComplianceFailed: user=alice,ip=10.0.0.32,err=AVNotRunning",EPS Failure
+25-02-2023 20:09,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 20:09,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 20:10,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:10,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 20:11,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 20:11,27730,fes,ERROR,49,"LicenseExpired: user=charlie,session=SID1915,ip=10.0.0.14,err=LicenseExpiredIssue",License Error
+25-02-2023 20:11,27730,fes,ERROR,70,"LicenseExpired: user=charlie,session=SID1439,ip=10.0.0.41,err=LicenseExpiredIssue",License Error
+25-02-2023 20:11,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 20:12,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:12,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 20:13,27730,fes,INFO,3,Heartbeat: keepalive session=SID1928,Normal
+25-02-2023 20:12,27730,fes,INFO,3,SessionRefresh: session=SID1993 ok,Normal
+25-02-2023 20:13,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 20:13,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 20:14,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:14,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:15,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 20:15,27730,fes,INFO,4,Cleanup: closed session=SID1974,Normal
+25-02-2023 20:15,27730,fes,INFO,3,Heartbeat: keepalive session=SID1428,Normal
+25-02-2023 20:16,27730,fes,INFO,2,Heartbeat: keepalive session=SID1184,Normal
+25-02-2023 20:16,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 20:16,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:16,27730,fes,INFO,8,Cleanup: closed session=SID1526,Normal
+25-02-2023 20:17,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 20:17,27730,fes,ERROR,33,"EPSComplianceFailed: user=alice,ip=10.0.0.33,err=AVNotRunning",EPS Failure
+25-02-2023 20:17,27730,fes,INFO,6,Heartbeat: keepalive session=SID1616,Normal
+25-02-2023 20:18,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 20:18,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 20:19,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 20:18,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 20:19,27730,fes,INFO,8,SessionRefresh: session=SID1275 ok,Normal
+25-02-2023 20:19,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 20:20,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 20:20,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 20:20,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:21,27730,fes,INFO,9,Cleanup: closed session=SID1629,Normal
+25-02-2023 20:21,27730,fes,INFO,6,SessionRefresh: session=SID1479 ok,Normal
+25-02-2023 20:21,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 20:21,27730,fes,INFO,5,Cleanup: closed session=SID1100,Normal
+25-02-2023 20:22,27730,fes,ERROR,38,"CertificateError: user=erin,ip=10.0.0.41,err=CertificateErrorIssue",Certificate Error
+25-02-2023 20:22,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 20:23,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 20:23,27730,fes,INFO,9,Heartbeat: keepalive session=SID1549,Normal
+25-02-2023 20:23,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 20:24,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 20:24,27730,fes,ERROR,56,"LicenseExpired: user=alice,session=SID1904,ip=10.0.0.42,err=LicenseExpiredIssue",License Error
+25-02-2023 20:24,27730,fes,INFO,1,Cleanup: closed session=SID1653,Normal
+25-02-2023 20:24,27730,fes,INFO,7,Heartbeat: keepalive session=SID1501,Normal
+25-02-2023 20:25,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 20:25,27730,fes,INFO,10,Heartbeat: keepalive session=SID1557,Normal
+25-02-2023 20:26,27730,fes,ERROR,90,"AuthenticationFailed: user=alice,session=SID1712,ip=10.0.0.44,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 20:26,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 20:26,27730,fes,INFO,3,Cleanup: closed session=SID1320,Normal
+25-02-2023 20:27,27730,fes,ERROR,24,"ProxyConnectionFailed: user=charlie,session=SID1633,ip=10.0.0.39,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 20:27,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:27,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 20:28,27730,fes,INFO,1,Heartbeat: keepalive session=SID1479,Normal
+25-02-2023 20:28,27730,fes,INFO,10,SessionRefresh: session=SID1739 ok,Normal
+25-02-2023 20:28,27730,fes,INFO,9,SessionRefresh: session=SID1997 ok,Normal
+25-02-2023 20:28,27730,fes,INFO,5,Cleanup: closed session=SID1687,Normal
+25-02-2023 20:29,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 20:29,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 20:30,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:30,27730,fes,INFO,10,Cleanup: closed session=SID1156,Normal
+25-02-2023 20:31,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 20:30,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 20:31,27730,fes,ERROR,52,"ConnectionFailed: user=dan,session=SID1543,ip=10.0.0.4,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 20:31,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 20:32,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 20:32,27730,fes,ERROR,69,"TwoFactorFailed: user=alice,session=SID1467,ip=10.0.0.31,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 20:32,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:32,27730,fes,ERROR,83,"ConnectionFailed: user=dan,session=SID1100,ip=10.0.0.11,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 20:33,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 20:34,27730,fes,INFO,8,Heartbeat: keepalive session=SID1256,Normal
+25-02-2023 20:34,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:34,27730,fes,INFO,10,Cleanup: closed session=SID1264,Normal
+25-02-2023 20:34,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:35,27730,fes,ERROR,35,"TwoFactorFailed: user=bob,session=SID1807,ip=10.0.0.44,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 20:35,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 20:36,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:36,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 20:36,27730,fes,ERROR,30,"AuthenticationFailed: user=bob,session=SID1657,ip=10.0.0.19,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 20:36,27730,fes,INFO,3,Heartbeat: keepalive session=SID1306,Normal
+25-02-2023 20:37,27730,fes,INFO,3,SessionRefresh: session=SID1675 ok,Normal
+25-02-2023 20:37,27730,fes,INFO,4,SessionRefresh: session=SID1578 ok,Normal
+25-02-2023 20:38,27730,fes,ERROR,98,"LicenseExpired: user=erin,session=SID1880,ip=10.0.0.49,err=LicenseExpiredIssue",License Error
+25-02-2023 20:37,27730,fes,ERROR,38,"UserAccountExpired: user=dan,session=SID1918,ip=10.0.0.35,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 20:38,27730,fes,INFO,10,Cleanup: closed session=SID1319,Normal
+25-02-2023 20:38,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 20:38,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 20:39,27730,fes,ERROR,54,"ProxyConnectionFailed: user=bob,session=SID1113,ip=10.0.0.12,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 20:39,27730,fes,ERROR,43,"UserAccountExpired: user=bob,session=SID1419,ip=10.0.0.28,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 20:40,27730,fes,INFO,10,SessionRefresh: session=SID1865 ok,Normal
+25-02-2023 20:40,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 20:40,27730,fes,INFO,5,SessionRefresh: session=SID1007 ok,Normal
+25-02-2023 20:40,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 20:41,27730,fes,WARN,47,"HighLatency: session=SID1463,latency=5864ms",Performance Warning
+25-02-2023 20:41,27730,fes,WARN,45,"HighLatency: session=SID1913,latency=5369ms",Performance Warning
+25-02-2023 20:42,27730,fes,INFO,6,Cleanup: closed session=SID1513,Normal
+25-02-2023 20:42,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:43,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:43,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:43,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 20:43,27730,fes,ERROR,87,"UserAccountExpired: user=bob,session=SID1977,ip=10.0.0.15,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 20:43,27730,fes,INFO,3,Heartbeat: keepalive session=SID1953,Normal
+25-02-2023 20:44,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:45,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:45,27730,fes,INFO,3,SessionRefresh: session=SID1222 ok,Normal
+25-02-2023 20:45,27730,fes,INFO,1,Cleanup: closed session=SID1717,Normal
+25-02-2023 20:45,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 20:45,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:46,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 20:46,27730,fes,INFO,10,SessionRefresh: session=SID1405 ok,Normal
+25-02-2023 20:47,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 20:47,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 20:48,27730,fes,INFO,7,Cleanup: closed session=SID1594,Normal
+25-02-2023 20:48,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 20:48,27730,fes,INFO,1,SessionRefresh: session=SID1919 ok,Normal
+25-02-2023 20:48,27730,fes,INFO,6,Cleanup: closed session=SID1002,Normal
+25-02-2023 20:49,27730,fes,INFO,4,Heartbeat: keepalive session=SID1124,Normal
+25-02-2023 20:49,27730,fes,INFO,9,Heartbeat: keepalive session=SID1605,Normal
+25-02-2023 20:50,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 20:50,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 20:50,27730,fes,INFO,3,SessionRefresh: session=SID1363 ok,Normal
+25-02-2023 20:50,27730,fes,INFO,5,Heartbeat: keepalive session=SID1591,Normal
+25-02-2023 20:51,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:51,27730,fes,ERROR,25,"ConnectionFailed: user=bob,session=SID1082,ip=10.0.0.45,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 20:51,27730,fes,INFO,4,Cleanup: closed session=SID1147,Normal
+25-02-2023 20:52,27730,fes,INFO,1,Heartbeat: keepalive session=SID1376,Normal
+25-02-2023 20:52,27730,fes,INFO,10,Cleanup: closed session=SID1956,Normal
+25-02-2023 20:52,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:53,27730,fes,ERROR,80,"SAMLFailure: user=charlie,ip=10.0.0.34,err=SAMLFailureIssue",SAML Error
+25-02-2023 20:53,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 20:53,27730,fes,INFO,9,Cleanup: closed session=SID1902,Normal
+25-02-2023 20:54,27730,fes,ERROR,62,"LicenseExpired: user=charlie,session=SID1781,ip=10.0.0.29,err=LicenseExpiredIssue",License Error
+25-02-2023 20:54,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 20:54,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 20:55,27730,fes,ERROR,39,"AuthenticationFailed: user=charlie,session=SID1432,ip=10.0.0.48,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 20:55,27730,fes,INFO,3,SessionRefresh: session=SID1003 ok,Normal
+25-02-2023 20:55,27730,fes,INFO,6,Heartbeat: keepalive session=SID1601,Normal
+25-02-2023 20:55,27730,fes,ERROR,22,"AuthenticationFailed: user=bob,session=SID1631,ip=10.0.0.17,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 20:56,27730,fes,INFO,10,Heartbeat: keepalive session=SID1370,Normal
+25-02-2023 20:56,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 20:57,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 20:57,27730,fes,ERROR,71,"SAMLFailure: user=erin,ip=10.0.0.40,err=SAMLFailureIssue",SAML Error
+25-02-2023 20:58,27730,fes,INFO,6,Heartbeat: keepalive session=SID1922,Normal
+25-02-2023 20:58,27730,fes,INFO,7,Cleanup: closed session=SID1186,Normal
+25-02-2023 20:58,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 20:58,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 20:59,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 20:59,27730,fes,ERROR,73,"TwoFactorFailed: user=erin,session=SID1150,ip=10.0.0.19,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 20:59,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 21:00,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:00,27730,fes,ERROR,38,"UserAccountExpired: user=erin,session=SID1968,ip=10.0.0.9,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 21:00,27730,fes,ERROR,79,"ProxyConnectionFailed: user=erin,session=SID1248,ip=10.0.0.31,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 21:00,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 21:01,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:02,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 21:01,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 21:02,27730,fes,INFO,6,ConfigReload: completed,Normal
+25-02-2023 21:03,27730,fes,INFO,5,Heartbeat: keepalive session=SID1959,Normal
+25-02-2023 21:03,27730,fes,INFO,5,SessionRefresh: session=SID1445 ok,Normal
+25-02-2023 21:03,27730,fes,WARN,90,"HighLatency: session=SID1935,latency=2979ms",Performance Warning
+25-02-2023 21:03,27730,fes,INFO,9,Heartbeat: keepalive session=SID1812,Normal
+25-02-2023 21:04,27730,fes,INFO,8,Cleanup: closed session=SID1205,Normal
+25-02-2023 21:04,27730,fes,INFO,8,Heartbeat: keepalive session=SID1785,Normal
+25-02-2023 21:04,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:05,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 21:05,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 21:06,27730,fes,ERROR,27,"LicenseExpired: user=bob,session=SID1049,ip=10.0.0.29,err=LicenseExpiredIssue",License Error
+25-02-2023 21:06,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 21:06,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:07,27730,fes,INFO,10,Initialization: FES worker started,Normal
+25-02-2023 21:07,27730,fes,INFO,9,Heartbeat: keepalive session=SID1142,Normal
+25-02-2023 21:07,27730,fes,ERROR,43,"TokenExpired: user=alice,session=SID1259,ip=10.0.0.37,err=TokenExpiredIssue",Token Expired
+25-02-2023 21:07,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 21:07,27730,fes,INFO,9,Cleanup: closed session=SID1546,Normal
+25-02-2023 21:08,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:08,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:09,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:09,27730,fes,INFO,5,Heartbeat: keepalive session=SID1548,Normal
+25-02-2023 21:09,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 21:10,27730,fes,INFO,8,Cleanup: closed session=SID1100,Normal
+25-02-2023 21:10,27730,fes,INFO,10,SessionRefresh: session=SID1298 ok,Normal
+25-02-2023 21:10,27730,fes,INFO,1,Cleanup: closed session=SID1088,Normal
+25-02-2023 21:11,27730,fes,INFO,8,SessionRefresh: session=SID1177 ok,Normal
+25-02-2023 21:11,27730,fes,ERROR,55,"TwoFactorFailed: user=dan,session=SID1124,ip=10.0.0.41,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 21:11,27730,fes,INFO,5,Cleanup: closed session=SID1959,Normal
+25-02-2023 21:12,27730,fes,INFO,7,SessionRefresh: session=SID1072 ok,Normal
+25-02-2023 21:12,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:13,27730,fes,INFO,6,Heartbeat: keepalive session=SID1636,Normal
+25-02-2023 21:13,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:13,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 21:14,27730,fes,ERROR,77,"TokenExpired: user=bob,session=SID1490,ip=10.0.0.1,err=TokenExpiredIssue",Token Expired
+25-02-2023 21:14,27730,fes,INFO,5,ConfigReload: completed,Normal
+25-02-2023 21:14,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 21:14,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:14,27730,fes,INFO,9,ConfigReload: completed,Normal
+25-02-2023 21:15,27730,fes,ERROR,43,"CertificateError: user=erin,ip=10.0.0.23,err=CertificateErrorIssue",Certificate Error
+25-02-2023 21:15,27730,fes,INFO,3,Heartbeat: keepalive session=SID1583,Normal
+25-02-2023 21:16,27730,fes,ERROR,48,"ProxyConnectionFailed: user=erin,session=SID1310,ip=10.0.0.21,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 21:16,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 21:16,27730,fes,INFO,3,Heartbeat: keepalive session=SID1768,Normal
+25-02-2023 21:17,27730,fes,ERROR,38,"TokenExpired: user=erin,session=SID1501,ip=10.0.0.43,err=TokenExpiredIssue",Token Expired
+25-02-2023 21:17,27730,fes,INFO,5,Heartbeat: keepalive session=SID1622,Normal
+25-02-2023 21:18,27730,fes,ERROR,67,"EPSComplianceFailed: user=frank,ip=10.0.0.8,err=AVNotRunning",EPS Failure
+25-02-2023 21:18,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 21:18,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:19,27730,fes,INFO,7,Heartbeat: keepalive session=SID1997,Normal
+25-02-2023 21:18,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 21:19,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:19,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 21:20,27730,fes,INFO,1,Cleanup: closed session=SID1857,Normal
+25-02-2023 21:20,27730,fes,WARN,97,"HighLatency: session=SID1697,latency=6641ms",Performance Warning
+25-02-2023 21:20,27730,fes,ERROR,88,"ConnectionFailed: user=charlie,session=SID1049,ip=10.0.0.34,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 21:21,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 21:21,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 21:22,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 21:21,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 21:22,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 21:22,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:23,27730,fes,INFO,1,Heartbeat: keepalive session=SID1841,Normal
+25-02-2023 21:23,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:24,27730,fes,INFO,1,SessionRefresh: session=SID1676 ok,Normal
+25-02-2023 21:24,27730,fes,ERROR,68,"ConnectionFailed: user=frank,session=SID1111,ip=10.0.0.19,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 21:24,27730,fes,ERROR,97,"LicenseExpired: user=erin,session=SID1014,ip=10.0.0.19,err=LicenseExpiredIssue",License Error
+25-02-2023 21:25,27730,fes,INFO,6,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:24,27730,fes,ERROR,84,"ProxyConnectionFailed: user=bob,session=SID1488,ip=10.0.0.2,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 21:25,27730,fes,INFO,3,Cleanup: closed session=SID1346,Normal
+25-02-2023 21:25,27730,fes,INFO,10,Heartbeat: keepalive session=SID1951,Normal
+25-02-2023 21:26,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:26,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 21:27,27730,fes,INFO,3,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:26,27730,fes,INFO,4,Cleanup: closed session=SID1593,Normal
+25-02-2023 21:27,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 21:28,27730,fes,INFO,9,SessionRefresh: session=SID1536 ok,Normal
+25-02-2023 21:27,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 21:28,27730,fes,INFO,2,SessionRefresh: session=SID1305 ok,Normal
+25-02-2023 21:28,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 21:29,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 21:29,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:29,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 21:30,27730,fes,INFO,10,Cleanup: closed session=SID1168,Normal
+25-02-2023 21:30,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 21:31,27730,fes,ERROR,56,"AuthenticationFailed: user=erin,session=SID1448,ip=10.0.0.8,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 21:31,27730,fes,INFO,2,SessionRefresh: session=SID1950 ok,Normal
+25-02-2023 21:31,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 21:32,27730,fes,INFO,8,SessionRefresh: session=SID1005 ok,Normal
+25-02-2023 21:32,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:32,27730,fes,INFO,4,Heartbeat: keepalive session=SID1832,Normal
+25-02-2023 21:33,27730,fes,ERROR,99,"ConnectionFailed: user=erin,session=SID1302,ip=10.0.0.44,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 21:33,27730,fes,INFO,8,Cleanup: closed session=SID1333,Normal
+25-02-2023 21:33,27730,fes,INFO,7,SessionRefresh: session=SID1681 ok,Normal
+25-02-2023 21:34,27730,fes,INFO,1,SessionRefresh: session=SID1015 ok,Normal
+25-02-2023 21:34,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:34,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 21:35,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 21:35,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 21:35,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 21:35,27730,fes,INFO,9,SessionRefresh: session=SID1739 ok,Normal
+25-02-2023 21:35,27730,fes,ERROR,29,"ProxyConnectionFailed: user=erin,session=SID1146,ip=10.0.0.48,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 21:36,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 21:36,27730,fes,INFO,3,ScheduledBackup: ok,Normal
+25-02-2023 21:37,27730,fes,INFO,8,SessionRefresh: session=SID1892 ok,Normal
+25-02-2023 21:37,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:38,27730,fes,INFO,3,Cleanup: closed session=SID1396,Normal
+25-02-2023 21:38,27730,fes,INFO,3,Heartbeat: keepalive session=SID1645,Normal
+25-02-2023 21:38,27730,fes,INFO,5,Cleanup: closed session=SID1998,Normal
+25-02-2023 21:38,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 21:39,27730,fes,ERROR,66,"UserAccountExpired: user=dan,session=SID1851,ip=10.0.0.40,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 21:39,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 21:40,27730,fes,INFO,10,SessionRefresh: session=SID1260 ok,Normal
+25-02-2023 21:40,27730,fes,INFO,10,SessionRefresh: session=SID1900 ok,Normal
+25-02-2023 21:40,27730,fes,INFO,5,Heartbeat: keepalive session=SID1501,Normal
+25-02-2023 21:40,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 21:41,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 21:41,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 21:42,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 21:41,27730,fes,INFO,10,Heartbeat: keepalive session=SID1487,Normal
+25-02-2023 21:42,27730,fes,ERROR,92,"EPSComplianceFailed: user=erin,ip=10.0.0.40,err=AVNotRunning",EPS Failure
+25-02-2023 21:42,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 21:43,27730,fes,ERROR,79,"ProxyConnectionFailed: user=charlie,session=SID1530,ip=10.0.0.15,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 21:43,27730,fes,INFO,5,Cleanup: closed session=SID1177,Normal
+25-02-2023 21:43,27730,fes,INFO,9,Heartbeat: keepalive session=SID1324,Normal
+25-02-2023 21:43,27730,fes,ERROR,72,"TokenExpired: user=dan,session=SID1883,ip=10.0.0.22,err=TokenExpiredIssue",Token Expired
+25-02-2023 21:44,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:44,27730,fes,INFO,4,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:45,27730,fes,ERROR,40,"ProxyConnectionFailed: user=dan,session=SID1964,ip=10.0.0.12,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 21:45,27730,fes,ERROR,71,"UserAccountExpired: user=alice,session=SID1179,ip=10.0.0.24,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 21:45,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 21:46,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 21:46,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:46,27730,fes,ERROR,54,"EPSComplianceFailed: user=frank,ip=10.0.0.4,err=AVNotRunning",EPS Failure
+25-02-2023 21:46,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 21:47,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 21:47,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 21:48,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 21:48,27730,fes,INFO,10,Heartbeat: keepalive session=SID1525,Normal
+25-02-2023 21:49,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 21:49,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:49,27730,fes,ERROR,43,"AuthenticationFailed: user=bob,session=SID1372,ip=10.0.0.4,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 21:49,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 21:49,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:50,27730,fes,INFO,10,Cleanup: closed session=SID1256,Normal
+25-02-2023 21:51,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 21:51,27730,fes,INFO,9,Heartbeat: keepalive session=SID1116,Normal
+25-02-2023 21:51,27730,fes,INFO,6,ScheduledBackup: ok,Normal
+25-02-2023 21:51,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 21:52,27730,fes,INFO,2,Cleanup: closed session=SID1770,Normal
+25-02-2023 21:52,27730,fes,INFO,1,SessionRefresh: session=SID1706 ok,Normal
+25-02-2023 21:52,27730,fes,INFO,2,SessionRefresh: session=SID1517 ok,Normal
+25-02-2023 21:53,27730,fes,INFO,3,SessionRefresh: session=SID1213 ok,Normal
+25-02-2023 21:53,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 21:54,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 21:54,27730,fes,ERROR,21,"EPSComplianceFailed: user=charlie,ip=10.0.0.23,err=AVNotRunning",EPS Failure
+25-02-2023 21:54,27730,fes,ERROR,86,"ProxyConnectionFailed: user=charlie,session=SID1581,ip=10.0.0.37,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 21:54,27730,fes,INFO,4,Heartbeat: keepalive session=SID1801,Normal
+25-02-2023 21:54,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 21:55,27730,fes,ERROR,55,"AuthenticationFailed: user=charlie,session=SID1612,ip=10.0.0.42,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 21:56,27730,fes,INFO,2,Heartbeat: keepalive session=SID1635,Normal
+25-02-2023 21:56,27730,fes,INFO,4,ConfigReload: completed,Normal
+25-02-2023 21:56,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 21:57,27730,fes,INFO,1,Cleanup: closed session=SID1878,Normal
+25-02-2023 21:56,27730,fes,INFO,9,Initialization: FES worker started,Normal
+25-02-2023 21:57,27730,fes,INFO,8,ScheduledBackup: ok,Normal
+25-02-2023 21:57,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 21:57,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 21:58,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 21:59,27730,fes,INFO,7,Cleanup: closed session=SID1561,Normal
+25-02-2023 21:59,27730,fes,ERROR,71,"EPSComplianceFailed: user=charlie,ip=10.0.0.23,err=AVNotRunning",EPS Failure
+25-02-2023 21:59,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 21:59,27730,fes,INFO,1,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:00,27730,fes,ERROR,27,"UserAccountExpired: user=alice,session=SID1159,ip=10.0.0.10,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 22:00,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:00,27730,fes,INFO,8,Heartbeat: keepalive session=SID1724,Normal
+25-02-2023 22:01,27730,fes,ERROR,35,"TokenExpired: user=dan,session=SID1932,ip=10.0.0.42,err=TokenExpiredIssue",Token Expired
+25-02-2023 22:01,27730,fes,ERROR,83,"UserAccountExpired: user=erin,session=SID1400,ip=10.0.0.9,err=UserAccountExpiredIssue",Account Expired
+25-02-2023 22:01,27730,fes,ERROR,90,"AuthenticationFailed: user=charlie,session=SID1795,ip=10.0.0.38,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 22:01,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 22:02,27730,fes,ERROR,65,"TwoFactorFailed: user=charlie,session=SID1362,ip=10.0.0.9,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 22:03,27730,fes,INFO,2,Cleanup: closed session=SID1667,Normal
+25-02-2023 22:03,27730,fes,INFO,3,Heartbeat: keepalive session=SID1677,Normal
+25-02-2023 22:03,27730,fes,INFO,8,Cleanup: closed session=SID1430,Normal
+25-02-2023 22:03,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 22:04,27730,fes,INFO,5,Cleanup: closed session=SID1807,Normal
+25-02-2023 22:04,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 22:04,27730,fes,ERROR,63,"TwoFactorFailed: user=bob,session=SID1040,ip=10.0.0.42,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 22:05,27730,fes,ERROR,71,"LicenseExpired: user=bob,session=SID1948,ip=10.0.0.29,err=LicenseExpiredIssue",License Error
+25-02-2023 22:05,27730,fes,INFO,7,SessionRefresh: session=SID1926 ok,Normal
+25-02-2023 22:05,27730,fes,ERROR,72,"EPSComplianceFailed: user=charlie,ip=10.0.0.41,err=AVNotRunning",EPS Failure
+25-02-2023 22:05,27730,fes,INFO,4,ScheduledBackup: ok,Normal
+25-02-2023 22:06,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 22:06,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 22:07,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 22:07,27730,fes,ERROR,53,"LicenseExpired: user=erin,session=SID1176,ip=10.0.0.18,err=LicenseExpiredIssue",License Error
+25-02-2023 22:08,27730,fes,INFO,5,Cleanup: closed session=SID1934,Normal
+25-02-2023 22:07,27730,fes,INFO,1,Heartbeat: keepalive session=SID1971,Normal
+25-02-2023 22:08,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:08,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:09,27730,fes,INFO,2,Cleanup: closed session=SID1649,Normal
+25-02-2023 22:09,27730,fes,INFO,5,Heartbeat: keepalive session=SID1497,Normal
+25-02-2023 22:09,27730,fes,INFO,2,Cleanup: closed session=SID1899,Normal
+25-02-2023 22:09,27730,fes,INFO,1,Heartbeat: keepalive session=SID1077,Normal
+25-02-2023 22:10,27730,fes,ERROR,95,"AuthenticationFailed: user=dan,session=SID1254,ip=10.0.0.2,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 22:11,27730,fes,INFO,3,ConfigReload: completed,Normal
+25-02-2023 22:11,27730,fes,INFO,5,SessionRefresh: session=SID1863 ok,Normal
+25-02-2023 22:11,27730,fes,ERROR,59,"SAMLFailure: user=frank,ip=10.0.0.12,err=SAMLFailureIssue",SAML Error
+25-02-2023 22:11,27730,fes,INFO,7,Heartbeat: keepalive session=SID1448,Normal
+25-02-2023 22:12,27730,fes,ERROR,71,"EPSComplianceFailed: user=charlie,ip=10.0.0.33,err=AVNotRunning",EPS Failure
+25-02-2023 22:12,27730,fes,INFO,5,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:12,27730,fes,INFO,9,SessionRefresh: session=SID1039 ok,Normal
+25-02-2023 22:13,27730,fes,INFO,4,SessionRefresh: session=SID1057 ok,Normal
+25-02-2023 22:13,27730,fes,WARN,79,"HighLatency: session=SID1708,latency=2085ms",Performance Warning
+25-02-2023 22:14,27730,fes,INFO,9,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:13,27730,fes,ERROR,76,"TokenExpired: user=erin,session=SID1398,ip=10.0.0.29,err=TokenExpiredIssue",Token Expired
+25-02-2023 22:14,27730,fes,INFO,9,ScheduledBackup: ok,Normal
+25-02-2023 22:14,27730,fes,INFO,1,ScheduledBackup: ok,Normal
+25-02-2023 22:14,27730,fes,INFO,2,Initialization: FES worker started,Normal
+25-02-2023 22:15,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 22:15,27730,fes,INFO,2,SessionRefresh: session=SID1890 ok,Normal
+25-02-2023 22:15,27730,fes,ERROR,92,"ProxyConnectionFailed: user=charlie,session=SID1557,ip=10.0.0.38,err=ProxyConnectionFailedIssue",Proxy Error
+25-02-2023 22:16,27730,fes,INFO,7,Initialization: FES worker started,Normal
+25-02-2023 22:17,27730,fes,INFO,6,Initialization: FES worker started,Normal
+25-02-2023 22:16,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 22:17,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 22:17,27730,fes,INFO,2,ScheduledBackup: ok,Normal
+25-02-2023 22:18,27730,fes,INFO,4,SessionRefresh: session=SID1374 ok,Normal
+25-02-2023 22:18,27730,fes,INFO,4,Heartbeat: keepalive session=SID1342,Normal
+25-02-2023 22:19,27730,fes,INFO,10,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:19,27730,fes,INFO,5,SessionRefresh: session=SID1403 ok,Normal
+25-02-2023 22:19,27730,fes,INFO,2,Cleanup: closed session=SID1118,Normal
+25-02-2023 22:20,27730,fes,INFO,4,Cleanup: closed session=SID1152,Normal
+25-02-2023 22:20,27730,fes,INFO,2,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:20,27730,fes,ERROR,77,"SAMLFailure: user=charlie,ip=10.0.0.44,err=SAMLFailureIssue",SAML Error
+25-02-2023 22:20,27730,fes,INFO,5,Initialization: FES worker started,Normal
+25-02-2023 22:21,27730,fes,INFO,8,Heartbeat: keepalive session=SID1049,Normal
+25-02-2023 22:21,27730,fes,INFO,7,ScheduledBackup: ok,Normal
+25-02-2023 22:21,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:22,27730,fes,INFO,1,ConfigReload: completed,Normal
+25-02-2023 22:22,27730,fes,INFO,5,ScheduledBackup: ok,Normal
+25-02-2023 22:23,27730,fes,INFO,10,ScheduledBackup: ok,Normal
+25-02-2023 22:23,27730,fes,INFO,8,Initialization: FES worker started,Normal
+25-02-2023 22:23,27730,fes,ERROR,74,"EPSComplianceFailed: user=dan,ip=10.0.0.7,err=AVNotRunning",EPS Failure
+25-02-2023 22:23,27730,fes,ERROR,87,"TwoFactorFailed: user=dan,session=SID1594,ip=10.0.0.29,err=TwoFactorFailedIssue",2FA Failure
+25-02-2023 22:24,27730,fes,INFO,4,Initialization: FES worker started,Normal
+25-02-2023 22:24,27730,fes,ERROR,97,"AuthenticationFailed: user=alice,session=SID1599,ip=10.0.0.18,err=AuthenticationFailedIssue",1FA Failure
+25-02-2023 22:25,27730,fes,INFO,7,ConfigReload: completed,Normal
+25-02-2023 22:25,27730,fes,INFO,1,Cleanup: closed session=SID1457,Normal
+25-02-2023 22:25,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 22:26,27730,fes,INFO,10,Heartbeat: keepalive session=SID1883,Normal
+25-02-2023 22:25,27730,fes,INFO,4,Heartbeat: keepalive session=SID1581,Normal
+25-02-2023 22:26,27730,fes,INFO,2,ConfigReload: completed,Normal
+25-02-2023 22:26,27730,fes,INFO,8,SessionRefresh: session=SID1101 ok,Normal
+25-02-2023 22:27,27730,fes,INFO,9,Cleanup: closed session=SID1963,Normal
+25-02-2023 22:27,27730,fes,INFO,9,Heartbeat: keepalive session=SID1038,Normal
+25-02-2023 22:28,27730,fes,INFO,3,Heartbeat: keepalive session=SID1014,Normal
+25-02-2023 22:28,27730,fes,INFO,3,Initialization: FES worker started,Normal
+25-02-2023 22:28,27730,fes,INFO,4,SessionRefresh: session=SID1714 ok,Normal
+25-02-2023 22:28,27730,fes,INFO,5,SessionRefresh: session=SID1714 ok,Normal
+25-02-2023 22:29,27730,fes,INFO,6,Cleanup: closed session=SID1016,Normal
+25-02-2023 22:29,27730,fes,WARN,34,"HighLatency: session=SID1415,latency=3007ms",Performance Warning
+25-02-2023 22:29,27730,fes,ERROR,54,"CertificateError: user=frank,ip=10.0.0.33,err=CertificateErrorIssue",Certificate Error
+25-02-2023 22:30,27730,fes,ERROR,23,"LicenseExpired: user=erin,session=SID1409,ip=10.0.0.13,err=LicenseExpiredIssue",License Error
+25-02-2023 22:30,27730,fes,INFO,8,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:30,27730,fes,INFO,10,ConfigReload: completed,Normal
+25-02-2023 22:31,27730,fes,INFO,8,SessionRefresh: session=SID1070 ok,Normal
+25-02-2023 22:31,27730,fes,INFO,1,Initialization: FES worker started,Normal
+25-02-2023 22:31,27730,fes,INFO,8,ConfigReload: completed,Normal
+25-02-2023 22:32,27730,fes,INFO,7,ServiceCheck: FES modules healthy,Normal
+25-02-2023 22:32,27730,fes,INFO,5,SessionRefresh: session=SID1228 ok,Normal
+25-02-2023 22:32,27730,fes,ERROR,91,"ConnectionFailed: user=dan,session=SID1486,ip=10.0.0.5,err=ConnectionFailedIssue",Connection Failure
+25-02-2023 22:33,27730,fes,INFO,1,ScheduledBackup: ok,Normal

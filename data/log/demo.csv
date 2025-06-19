@@ -1,0 +1,4 @@
+Timestamp,Level,Component,Message
+2023-06-01 10:00,INFO,Demo,Service started
+2023-06-01 10:05,ERROR,Demo,Connection failed
+2023-06-01 10:10,ERROR,Demo,Authentication failed
